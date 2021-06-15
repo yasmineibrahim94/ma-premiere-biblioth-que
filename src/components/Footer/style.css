@@ -1,0 +1,7 @@
+.footer{
+  display: flex;
+  background-image: url(../../assets/fonts/footer.jpg);
+  background-size: cover;
+  justify-content: flex-end;
+  height: 50px;
+}
