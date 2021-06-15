@@ -37,7 +37,7 @@ const Page = React.forwardRef((props, ref) => (
 ));
 
 // page with changes
-class ChaperonRouge extends React.Component {
+class PouleRousse extends React.Component {
   constructor(props) {
     super(props);
 
@@ -77,7 +77,7 @@ class ChaperonRouge extends React.Component {
           <Page number={0}>
           <div>
       
-          <h4 className="page-header">Le petit chaperon rouge</h4>
+          <h4 className="page-header">La petite poule rousse</h4>
       <div className="page" ref={this.ref}>
 
               <div className="page-img">
@@ -279,5 +279,5 @@ class ChaperonRouge extends React.Component {
   }
 }
 
-export default ChaperonRouge;
+export default PouleRousse;
 

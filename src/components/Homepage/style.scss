@@ -45,7 +45,7 @@
   }
 
 
-.dessertBook {
+.poule-rousse {
   width: 200%;
   background-image: url(../../assets/fonts/book4.jpg);
   color: white;
@@ -60,7 +60,7 @@
 color: white;
 }
 
-.starterBook{
+.chevreau{
   width: 160%;
   background-image: url(../../assets/fonts/book3.jpg);
   color: #3A55A0;
@@ -88,14 +88,14 @@ color: white;
 
 }
 
-.myRecipesBook{
-  width: 120%;
+.vilain-canard{
+  width: 220%;
   background-image: url(../../assets/fonts/book2.jpg);
   text-shadow: 0 0 10px aquamarine, 0 0 10px #0000FF;
 color: #624C86;
 }
 
-.shoppingListBook {
+.souris_verte {
   width: 110%;
   background-image: url(../../assets/fonts/book3.jpg);
   color: #3A2C2B;
@@ -105,8 +105,8 @@ color: #624C86;
 
 
 // ALL BOOKS
-.dessertBook, .dishBook, .starterBook, .chaperon_rouge, 
-.trois_cochons, .mechant_loup, .shoppingListBook, .myRecipesBook {
+.poule-rousse, .dishBook, .chevreau, .chaperon_rouge, 
+.trois_cochons, .mechant_loup, .souris_verte, .vilain-canard {
   height: 16rem;
   background-size: contain;
   background-repeat: no-repeat;
@@ -122,14 +122,14 @@ color: #624C86;
   text-transform: uppercase;
 }
 
-.dessertBook:hover, .searchButton:hover, .dishBook:hover, .starterBook:hover, 
+.poule-rousse:hover, .searchButton:hover, .dishBook:hover, .chevreau:hover, 
 .chaperon_rouge:hover, .trois_cochons:hover, .mechant_loup:hover, 
-.shoppingListBook:hover, .myRecipesBook:hover {
+.souris_verte:hover, .vilain-canard:hover {
   color: #D4923F;
 }
 
 @media only screen and (max-width: 481px) {
-  .dessertBook, .dishBook, .starterBook, .chaperon_rouge, .trois_cochons, .mechant_loup, .shoppingListBook, .myRecipesBook {
+  .poule-rousse, .dishBook, .chevreau, .chaperon_rouge, .trois_cochons, .mechant_loup, .souris_verte, .vilain-canard {
 width: 100%; 
 height: 10rem;
 font-size: 1em;

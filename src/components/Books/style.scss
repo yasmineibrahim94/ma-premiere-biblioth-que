@@ -14,31 +14,6 @@ height: 100vh;}
   margin-bottom: 3em;
 }
 
-.flip-book_my_recipe{
-  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
-  display: none;
-  margin:auto;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-}
-.imgRecipe {height: 12vh; width: 12vh; size: 100%;
-}  
-.info-recipe{width: 60%;
-  height: 100%; }
-  .image-recipe {width: 13vw;
-  height: 13vh; margin-bottom:1%;
-width: 20%;}
-   .recipe-content {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    font-size: 1.2em;
-    margin-top: 2%;
-    color: #D4B189;
-  } 
-
-  .recipe-content:hover{color: #D4923F;}
-
 .page {
   padding: 20px;
   width: 100%;
@@ -63,21 +38,25 @@ width: 20%;}
     }
 
      .page-img {
-     height: 100%;
+     height: auto;
      background-size: contain;
      background-position: center center;
      background-repeat: no-repeat;
+     width: auto;
+     display: flex;
+     justify-content: center; 
    } 
-
-   .p_recipe_info{font-size: 1.2em;}
    
+   .img-book {
+     height: 250px;
+     margin: 30px;
+      }
    .page-info {
      display: flex;
      align-items: baseline;
    }
     .page-text {
       height: 100%;
-      
       flex-grow: 1;
       font-size: 80%;
       text-align: justify;
@@ -85,6 +64,16 @@ width: 20%;}
       padding-top: 10px;
       box-sizing: border-box;
       border-top: solid 1px hsl(35, 55, 90);
+    }
+
+    .text-book{
+      font-size: 1.2rem;
+      text-align: justify;
+      margin: 30px;
+    }
+
+    .text-color{
+      color: #FAB696;
     }
 
     .page-footer {
@@ -114,14 +103,77 @@ width: 20%;}
     border: solid 1px hsl(35, 20, 50);
   }
 
-  &.page-cover {
-    background-image: url(https://jooinn.com/images/old-book-texture-15.jpg);
+  &.page-cover-book4 {
+    background-image: url(../../assets/fonts/book4.jpg);
 background-size: cover;
+color: white;
+text-shadow: 0 0 10px #FF0000, 0 0 15px #0000FF;
+font-size: 4rem;
     h2 {
       text-align: center;
       padding-top: 50%;
-      font-size: 210%;
-      color: #D4923F;
+    }
+
+    &.page-cover-top {
+      box-shadow: inset 0px 0 30px 0px rgba(36, 10, 3, 0.5), -2px 0 5px 2px rgba(0, 0, 0, 0.4);
+    }
+
+    &.page-cover-bottom {
+      box-shadow: inset 0px 0 30px 0px rgba(36, 10, 3, 0.5), 10px 0 8px 0px rgba(0, 0, 0, 0.4);
+    }
+  }
+
+  &.page-cover-book1 {
+    background-image: url(../../assets/fonts/book1.jpg);
+background-size: cover;
+color: white;
+text-shadow: 0 0 10px #FF0000, 0 0 15px #0000FF;
+font-size: 4rem;
+    h2 {
+      text-align: center;
+      padding-top: 50%;
+    }
+
+    &.page-cover-top {
+      box-shadow: inset 0px 0 30px 0px rgba(36, 10, 3, 0.5), -2px 0 5px 2px rgba(0, 0, 0, 0.4);
+    }
+
+    &.page-cover-bottom {
+      box-shadow: inset 0px 0 30px 0px rgba(36, 10, 3, 0.5), 10px 0 8px 0px rgba(0, 0, 0, 0.4);
+    }
+  }
+
+  &.page-cover-book3 {
+    background-image: url(../../assets/fonts/book3.jpg);
+background-size: cover;
+color: #3A2C2B;
+  text-shadow: 0 0 10px wheat, 0 0 10px burlywood;
+  font-weight: bold;
+font-size: 4rem;
+    h2 {
+      text-align: center;
+      padding-top: 50%;
+    }
+
+    &.page-cover-top {
+      box-shadow: inset 0px 0 30px 0px rgba(36, 10, 3, 0.5), -2px 0 5px 2px rgba(0, 0, 0, 0.4);
+    }
+
+    &.page-cover-bottom {
+      box-shadow: inset 0px 0 30px 0px rgba(36, 10, 3, 0.5), 10px 0 8px 0px rgba(0, 0, 0, 0.4);
+    }
+  }
+
+  &.page-cover-book2 {
+    background-image: url(../../assets/fonts/book2.jpg);
+background-size: cover;
+color: #3A2C2B;
+  text-shadow: 0 0 10px wheat, 0 0 10px burlywood;
+  font-weight: bold;
+font-size: 4rem;
+    h2 {
+      text-align: center;
+      padding-top: 50%;
     }
 
     &.page-cover-top {
@@ -138,20 +190,5 @@ background-size: cover;
 
 
 @media screen and (min-width: 821px) {
-  .ListByFlipResponsiv {
-   display: none;
-  }
-}
-@media screen and (max-width: 481px) {
-  .ListByFlip{
-    display: none;
-  }
-
-  .flip-book, .flip-book_my_recipe{
-    margin: auto;
-  }
-
-  .image-recipe {margin-top: 10%;}
-
-
+  
 }

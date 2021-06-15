@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 // book import
 import HTMLFlipBook from 'react-pageflip';
@@ -10,7 +9,7 @@ import Footer from '../../Footer';
 
 // basic cover
 const PageCover = React.forwardRef((props, ref) => (
-  <div className="page page-cover" ref={ref} data-density="hard">
+  <div className="page page-cover-book1" ref={ref} data-density="hard">
     <div className="page-content">
       <h2>{props.children}</h2>
     </div>
@@ -36,7 +35,6 @@ class MechantLoup extends React.Component {
     this.state = {
       page: 0,
       totalPage: 0,
-      dish: []
     };
   }
 
@@ -70,141 +68,7 @@ class MechantLoup extends React.Component {
           <PageCover>Plats</PageCover>
       
 
-          <Page number={1}>
-          <div>
-      
-      <h4 className="page-header">Plats</h4>
-      <div className="page" ref={this.ref}>
-      {data.dish.slice(0,3).map((data) => (
-
-          <Link to={`/recipe/${data.id}`}>
-
-          <div className="recipe-content">
-              <div className="image-recipe"><img src={data.image} className="imgRecipe"/></div>
-            <div className="info-recipe">
-              <h5 className="page-title">{data.name}</h5>
-              <div className="page-infos"> <p className="p_recipe_info">Temps de préparation : {data.prepare_time} </p>
-              <p className="p_recipe_info">Temps de cuisson : {data.cooking_time} </p>
-              <p className="p_recipe_info">Pour {data.part_number} {data.part_type}</p>  
-              </div>                         
-            </div>
-
-
-</div>
-          </Link>))}
-
-      </div>
-    </div>
-          </Page>
-
-
-          <Page number={2}>
-          <div>
-      
-      <h4 className="page-header">Plats</h4>
-      <div className="page" ref={this.ref}>
-      {data.dish.slice(3,6).map((data) => (
-
-          <Link to={`/recipe/${data.id}`}>
-
-          <div className="recipe-content">
-              <div className="image-recipe"><img src={data.image} className="imgRecipe"/></div>
-            <div className="info-recipe">
-              <h5 className="page-title">{data.name}</h5>
-              <div className="page-infos"> <p className="p_recipe_info">Temps de préparation : {data.prepare_time} </p>
-              <p className="p_recipe_info">Temps de cuisson : {data.cooking_time} </p>
-              <p className="p_recipe_info">Pour {data.part_number} {data.part_type}</p>  
-              </div>                         
-            </div>
-
-
-</div>
-          </Link>))}
-
-      </div>
-    </div>
-          </Page>
-
-          <Page number={3}>
-          <div>
-      
-      <h4 className="page-header">Plats</h4>
-      <div className="page" ref={this.ref}>
-      {data.dish.slice(6,9).map((data) => (
-
-          <Link to={`/recipe/${data.id}`}>
-
-          <div className="recipe-content">
-              <div className="image-recipe"><img src={data.image} className="imgRecipe"/></div>
-            <div className="info-recipe">
-              <h5 className="page-title">{data.name}</h5>
-              <div className="page-infos"> <p className="p_recipe_info">Temps de préparation : {data.prepare_time} </p>
-              <p className="p_recipe_info">Temps de cuisson : {data.cooking_time} </p>
-              <p className="p_recipe_info">Pour {data.part_number} {data.part_type}</p>  
-              </div>                         
-            </div>
-
-
-</div>
-          </Link>))}
-
-      </div>
-    </div>
-          </Page>
-
-          <Page number={4}>
-          <div>
-      
-      <h4 className="page-header">Plats</h4>
-      <div className="page" ref={this.ref}>
-      {data.dish.slice(9,12).map((data) => (
-
-          <Link to={`/recipe/${data.id}`}>
-
-          <div className="recipe-content">
-              <div className="image-recipe"><img src={data.image} className="imgRecipe"/></div>
-            <div className="info-recipe">
-              <h5 className="page-title">{data.name}</h5>
-              <div className="page-infos"> <p className="p_recipe_info">Temps de préparation : {data.prepare_time} </p>
-              <p className="p_recipe_info">Temps de cuisson : {data.cooking_time} </p>
-              <p className="p_recipe_info">Pour {data.part_number} {data.part_type}</p>  
-              </div>                         
-            </div>
-
-
-</div>
-          </Link>))}
-
-      </div>
-    </div>
-          </Page>
-
-          <Page number={5}>
-          <div>
-      
-      <h4 className="page-header">Plats</h4>
-      <div className="page" ref={this.ref}>
-      {data.dish.slice(12,15).map((data) => (
-
-          <Link to={`/recipe/${data.id}`}>
-
-          <div className="recipe-content">
-              <div className="image-recipe"><img src={data.image} className="imgRecipe"/></div>
-            <div className="info-recipe">
-              <h5 className="page-title">{data.name}</h5>
-              <div className="page-infos"> <p className="p_recipe_info">Temps de préparation : {data.prepare_time} </p>
-              <p className="p_recipe_info">Temps de cuisson : {data.cooking_time} </p>
-              <p className="p_recipe_info">Pour {data.part_number} {data.part_type}</p>  
-              </div>                         
-            </div>
-
-
-</div>
-          </Link>))}
-
-      </div>
-    </div>
-          </Page>
+         
 
           <PageCover>The End</PageCover>
 

@@ -1,13 +1,13 @@
 import React from 'react';
-import BookMyRecipes from './BookMyRecipes';
-import BookShoppingList from './BookShoppingList';
+import SourisVerteBook from './SourisVerteBook';
 import MechantLoupBook from './MechantLoupBook';
+import VilainCanardBook from './VilainCanardBook';
 
 const ShelfMyAccount = () => (
   <div className="ShelfMyAccount">
     <MechantLoupBook />
-    <BookMyRecipes />
-    <BookShoppingList />
+    <VilainCanardBook />
+    <SourisVerteBook />
   </div>
 );
 

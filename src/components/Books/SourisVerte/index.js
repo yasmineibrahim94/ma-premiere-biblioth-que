@@ -9,7 +9,7 @@ import Footer from '../../Footer';
 
 // basic cover
 const PageCover = React.forwardRef((props, ref) => (
-  <div className="page page-cover-book1" ref={ref} data-density="hard">
+  <div className="page page-cover-book3" ref={ref} data-density="hard">
     <div className="page-content">
       <h2>{props.children}</h2>
     </div>
@@ -28,7 +28,7 @@ const Page = React.forwardRef((props, ref) => (
 ));
 
 // page with changes
-class TroisCochons extends React.Component {
+class SourisVerte extends React.Component {
   constructor(props) {
     super(props);
 
@@ -66,7 +66,7 @@ class TroisCochons extends React.Component {
           ref={(el) => (this.flipBook = el)}
         >
 
-          <PageCover>Mes recettes</PageCover>
+          <PageCover>Une souris verte</PageCover>
 
           
 
@@ -80,4 +80,4 @@ class TroisCochons extends React.Component {
   }
 }
 
-export default TroisCochons;
+export default SourisVerte;

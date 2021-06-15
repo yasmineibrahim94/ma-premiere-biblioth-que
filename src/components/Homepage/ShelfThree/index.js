@@ -1,14 +1,12 @@
 import React from 'react';
-import BookDessert from './BookDessert/index';
-import BookDish from './BookDish/index';
-import BookStarter from './BookStarter/index';
+import PouleRousseBook from './PouleRousseBook';
+import ChevreauxBook from './ChevreauxBook';
 
 const ShelfCategory = () => (
   <div className="ShelfCategory">
 
-    <BookStarter />
-    <BookDish />
-    <BookDessert />
+    <ChevreauxBook />
+    <PouleRousseBook />
 
   </div>
 );
