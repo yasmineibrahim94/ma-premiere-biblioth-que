@@ -189,6 +189,6 @@ font-size: 4rem;
 
 
 
-@media screen and (min-width: 821px) {
-  
+@media only screen and (min-width: 360px) and (max-width: 499px) {
+  .flip-book{width: 100px;}
 }
