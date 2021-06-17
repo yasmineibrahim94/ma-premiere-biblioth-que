@@ -7,10 +7,10 @@ import FlipResponsive from './flipResponsive';
 // style import
 import '../style.scss';
 
-const MechantLoup = () => (
+const BoucleDor = () => (
   <div><div className="ListByFlipResponsiv"><FlipResponsive /></div>
   <div className="ListByFlip"> <Flip /> </div>
   </div>
 );
 
-export default MechantLoup;
+export default BoucleDor;

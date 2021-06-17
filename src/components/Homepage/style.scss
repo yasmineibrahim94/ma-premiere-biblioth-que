@@ -80,7 +80,7 @@ color: white;
   width: 100%;
   }
 
-.mechant_loup{
+.boucle_dor{
   width: 130%;
   background-image: url(../../assets/fonts/book1.jpg);
   color: wheat;
@@ -106,7 +106,7 @@ color: #624C86;
 
 // ALL BOOKS
 .poule-rousse, .dishBook, .chevreau, .chaperon_rouge, 
-.trois_cochons, .mechant_loup, .souris_verte, .vilain-canard {
+.trois_cochons, .boucle_dor, .souris_verte, .vilain-canard {
   height: 16rem;
   background-size: contain;
   background-repeat: no-repeat;
@@ -123,14 +123,14 @@ color: #624C86;
 }
 
 .poule-rousse:hover, .searchButton:hover, .dishBook:hover, .chevreau:hover, 
-.chaperon_rouge:hover, .trois_cochons:hover, .mechant_loup:hover, 
+.chaperon_rouge:hover, .trois_cochons:hover, .boucle_dor:hover, 
 .souris_verte:hover, .vilain-canard:hover {
   color: #D4923F;
 }
 
 
 @media only screen and (max-width: 550px) {
-  .poule-rousse, .dishBook, .chevreau, .chaperon_rouge, .trois_cochons, .mechant_loup, .souris_verte, .vilain-canard{
+  .poule-rousse, .dishBook, .chevreau, .chaperon_rouge, .trois_cochons, .boucle_dor, .souris_verte, .vilain-canard{
 width: 100%; 
 height: 6rem;
 font-size: 0.9rem;
@@ -151,7 +151,7 @@ margin-left: 5%;}
     margin-left: 5%;
 }
 
-.poule-rousse, .dishBook, .chevreau, .chaperon_rouge, .trois_cochons, .mechant_loup, .souris_verte, .vilain-canard{
+.poule-rousse, .dishBook, .chevreau, .chaperon_rouge, .trois_cochons, .boucle_dor, .souris_verte, .vilain-canard{
   width: 100%; 
   height: 10rem;
   font-size: 1.2rem;
@@ -164,7 +164,7 @@ margin-left: 5%;}
     margin-left: 10%;
 }
 
-.poule-rousse, .dishBook, .chevreau, .chaperon_rouge, .trois_cochons, .mechant_loup, .souris_verte, .vilain-canard{
+.poule-rousse, .dishBook, .chevreau, .chaperon_rouge, .trois_cochons, .boucle_dor, .souris_verte, .vilain-canard{
   width: 130%; 
   height: 12rem;
   font-size: 1.2rem;
@@ -177,7 +177,7 @@ margin-left: 5%;}
     margin-left: 10%;
 }
 
-.poule-rousse, .dishBook, .chevreau, .chaperon_rouge, .trois_cochons, .mechant_loup, .souris_verte, .vilain-canard{
+.poule-rousse, .dishBook, .chevreau, .chaperon_rouge, .trois_cochons, .boucle_dor, .souris_verte, .vilain-canard{
   width: 150%; 
   height: 15rem;
   font-size: 1.5rem;

@@ -1,11 +1,11 @@
 import React from 'react';
 import SourisVerteBook from './SourisVerteBook';
-import MechantLoupBook from './MechantLoupBook';
+import BoucleDorBook from './BoucleDorBook';
 import VilainCanardBook from './VilainCanardBook';
 
 const ShelfMyAccount = () => (
   <div className="ShelfMyAccount">
-    <MechantLoupBook />
+    <BoucleDorBook />
     <VilainCanardBook />
     <SourisVerteBook />
   </div>

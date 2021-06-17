@@ -66,11 +66,166 @@ class Flip extends React.Component {
           ref={(el) => (this.flipBook = el)}
         >
 
-          <PageCover>Mes recettes</PageCover>
+          <PageCover>Les trois petits cochons</PageCover>
 
-          
+          <Page number={0}>
+          <div>
+      
+          <h4 className="page-header">Les trois petits cochons</h4>
+      <div className="page" ref={this.ref}>
 
-          <PageCover>THE END</PageCover>
+              <div className="page-img">
+              <img className="img-book" src={img1}/></div>
+              <div className="page-text">
+              <p className="text-book">Il était une foi<span className="text-color">s</span> troi<span className="text-color">s</span> peti<span className="text-color">ts</span> cochon<span className="text-color">s</span> tou<span className="text-color">t</span> rose<span className="text-color">s</span> et tou<span className="text-color">t</span> ron<span className="text-color">ds.</span></p>
+              <p className="text-book">Le temps était venu pour eux de quitter papa et maman et de se construire chacun une belle maison.</p>
+            </div>
+
+</div>
+    </div>
+          </Page>
+
+
+          <Page number={1}>
+          <div>
+      
+          <h4 className="page-header">Les trois petits cochons</h4>
+      <div className="page" ref={this.ref}>
+
+              <div className="page-img">
+              <img className="img-book" src={img2}/></div>
+              <div className="page-text">
+              <p className="text-book">
+               Le premier peti<span className="text-color">t</span> cochon di<span className="text-color">t</span> :</p>
+               <p className="text-book">- Moi, je vai<span className="text-color">s</span> construire une maison tou<span className="text-color">t</span> en paille!</p>
+               <p className="text-book"> Et aussitô<span className="text-color">t</span>, il se mi<span className="text-color">t</span> au travail.
+              </p>
+            </div>
+
+</div>
+    </div>
+          </Page>
+
+          <Page number={2}>
+          <div>
+      
+          <h4 className="page-header">Les trois petits cochons</h4>
+      <div className="page" ref={this.ref}>
+
+              <div className="page-img">
+              <img className="img-book" src={img3}/></div>
+              <div className="page-text">
+              <p className="text-book">Le deuxième peti<span className="text-color">t</span> cochon di<span className="text-color">t</span> :</p>
+              <p className="text-book">- Moi, je vai<span className="text-color">s</span> construire une maison tou<span className="text-color">t</span> en boi<span className="text-color">s</span> !</p>
+              <p className="text-book"> Et aussitô<span className="text-color">t</span>, il se mi<span className="text-color">t</span> au travail.</p>
+
+            </div>
+
+</div>
+    </div>
+          </Page>
+
+          <Page number={3}>
+          <div>
+      
+          <h4 className="page-header">Les trois petits cochons</h4>
+      <div className="page" ref={this.ref}>
+
+              <div className="page-img">
+              <img className="img-book" src={img4}/></div>
+              <div className="page-text">
+              <p className="text-book">Le troisième peti<span className="text-color">t</span> cochon, décida de construire une maison en brique<span className="text-color">s</span>. Cela pri<span className="text-color">s</span> plus de temps.</p>
+              <p className="text-book">Et devinez qui observait les troi<span className="text-color">s</span> peti<span className="text-color">ts</span> cochon<span className="text-color">s</span> en se léchant les babine<span className="text-color">s</span>?
+              </p>
+              
+            </div>
+
+</div>
+    </div>
+          </Page>
+
+
+          <Page number={4}>
+          <div>
+      
+          <h4 className="page-header">Les trois petits cochons</h4>
+      <div className="page" ref={this.ref}>
+
+              <div className="page-img">
+              <img className="img-book" src={img4}/></div>
+              <div className="page-text">
+              <p className="text-book">Le lou<span className="text-color">p</span> bien sûr !</p>
+              <p className="text-book"> Et 1, 2, 3... il souffla sur la maison de paille qui s'envola !</p>
+              <p className="text-book">Et 4, 5, 6... il souffla sur la maison de boi<span className="text-color">s</span> qui s'envola aussi !
+              </p>
+              
+            </div>
+
+</div>
+    </div>
+          </Page>
+
+          <Page number={5}>
+          <div>
+      
+          <h4 className="page-header">Les trois petits cochons</h4>
+      <div className="page" ref={this.ref}>
+
+              <div className="page-img">
+              <img className="img-book" src={img4}/></div>
+              <div className="page-text">
+              <p className="text-book">Vite, les deux peti<span className="text-color">ts</span> cochon<span className="text-color">s</span> s'enfuirent et se réfugièrent dan<span className="text-color">s</span> la maison de leur frère.</p>
+              <p className="text-book">Le lou<span className="text-color">p</span> s'approcha de la maison de brique<span className="text-color">s</span> et souffla, souffla, souffla encore.</p>
+              <p className="text-book"> Mais la maison ne bougea pa<span className="text-color">s</span>.
+              </p>
+              
+            </div>
+
+</div>
+    </div>
+          </Page>
+
+
+          <Page number={6}>
+          <div>
+      
+          <h4 className="page-header">Les trois petits cochons</h4>
+      <div className="page" ref={this.ref}>
+
+              <div className="page-img">
+              <img className="img-book" src={img4}/></div>
+              <div className="page-text">
+              <p className="text-book">- Parole de lou<span className="text-color">p</span>, je vais manger ces troi<span className="text-color">s</span> cochon<span className="text-color">s</span> d'un seul cou<span className="text-color">p</span>! </p>
+              <p className="text-book">Je vai<span className="text-color">s</span> entrer par la cheminée pour les dévorer ! grogna-t-il en escaladan<span className="text-color">t</span> la maison...
+              </p>
+              
+            </div>
+
+</div>
+    </div>
+          </Page>
+
+
+          <Page number={7}>
+          <div>
+      
+          <h4 className="page-header">Les trois petits cochons</h4>
+      <div className="page" ref={this.ref}>
+
+              <div className="page-img">
+              <img className="img-book" src={img4}/></div>
+              <div className="page-text">
+              <p className="text-book">Et  plouf! Le lou<span className="text-color">p</span> tomba dans une marmite d'eau bouillante qui l'attendait sou<span className="text-color">s</span> la cheminée.
+              Pour fêter ça, les peti<span className="text-color">ts</span> cochon<span className="text-color">s</span> mangèrent un délicieux ragoû<span className="text-color">t</span> de lou<span className="text-color">p</span>!
+              </p>
+              
+            </div>
+
+</div>
+    </div>
+          </Page>
+
+          <PageCover>Fin</PageCover>
 
         </HTMLFlipBook>
         <Footer />
