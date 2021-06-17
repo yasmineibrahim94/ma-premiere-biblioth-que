@@ -6,6 +6,15 @@ import HTMLFlipBook from 'react-pageflip';
 // composants import
 import Header from '../../Header';
 import Footer from '../../Footer';
+import img1 from '../../../assets/fonts/TroisCochons/img1.jpg';
+import img2 from '../../../assets/fonts/TroisCochons/img2.jpg';
+import img3 from '../../../assets/fonts/TroisCochons/img3.jpg';
+import img4 from '../../../assets/fonts/TroisCochons/img4.jpg';
+import img5 from '../../../assets/fonts/TroisCochons/img5.jpg';
+import img6 from '../../../assets/fonts/TroisCochons/img6.jpg'; 
+import img7 from '../../../assets/fonts/TroisCochons/img7.jpg'; 
+import img8 from '../../../assets/fonts/TroisCochons/img8.jpg'; 
+
 
 // basic cover
 const PageCover = React.forwardRef((props, ref) => (
@@ -152,7 +161,7 @@ class Flip extends React.Component {
       <div className="page" ref={this.ref}>
 
               <div className="page-img">
-              <img className="img-book" src={img4}/></div>
+              <img className="img-book" src={img5}/></div>
               <div className="page-text">
               <p className="text-book">Le lou<span className="text-color">p</span> bien sûr !</p>
               <p className="text-book"> Et 1, 2, 3... il souffla sur la maison de paille qui s'envola !</p>
@@ -172,7 +181,7 @@ class Flip extends React.Component {
       <div className="page" ref={this.ref}>
 
               <div className="page-img">
-              <img className="img-book" src={img4}/></div>
+              <img className="img-book" src={img6}/></div>
               <div className="page-text">
               <p className="text-book">Vite, les deux peti<span className="text-color">ts</span> cochon<span className="text-color">s</span> s'enfuirent et se réfugièrent dan<span className="text-color">s</span> la maison de leur frère.</p>
               <p className="text-book">Le lou<span className="text-color">p</span> s'approcha de la maison de brique<span className="text-color">s</span> et souffla, souffla, souffla encore.</p>
@@ -193,7 +202,7 @@ class Flip extends React.Component {
       <div className="page" ref={this.ref}>
 
               <div className="page-img">
-              <img className="img-book" src={img4}/></div>
+              <img className="img-book" src={img7}/></div>
               <div className="page-text">
               <p className="text-book">- Parole de lou<span className="text-color">p</span>, je vais manger ces troi<span className="text-color">s</span> cochon<span className="text-color">s</span> d'un seul cou<span className="text-color">p</span>! </p>
               <p className="text-book">Je vai<span className="text-color">s</span> entrer par la cheminée pour les dévorer ! grogna-t-il en escaladan<span className="text-color">t</span> la maison...
@@ -213,7 +222,7 @@ class Flip extends React.Component {
       <div className="page" ref={this.ref}>
 
               <div className="page-img">
-              <img className="img-book" src={img4}/></div>
+              <img className="img-book" src={img8}/></div>
               <div className="page-text">
               <p className="text-book">Et  plouf! Le lou<span className="text-color">p</span> tomba dans une marmite d'eau bouillante qui l'attendait sou<span className="text-color">s</span> la cheminée.
               Pour fêter ça, les peti<span className="text-color">ts</span> cochon<span className="text-color">s</span> mangèrent un délicieux ragoû<span className="text-color">t</span> de lou<span className="text-color">p</span>!

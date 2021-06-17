@@ -72,7 +72,7 @@ class FlipResponsive extends React.Component {
           ref={(el) => (this.flipBook = el)}
         >
 
-          <PageCover>Le Petit Chaperon Rouge</PageCover>
+          <PageCover>La petite poule rousse</PageCover>
 
           <Page number={0}>
           <div>
