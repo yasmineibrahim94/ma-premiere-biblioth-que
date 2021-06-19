@@ -48,7 +48,7 @@ class Flip extends React.Component {
         <Header />
 
         <HTMLFlipBook
-          width={550}
+          width={500}
           height={700}
           minWidth={315}
           maxWidth={1000}

@@ -58,7 +58,7 @@ class Flip extends React.Component {
           maxWidth={1000}
           minHeight={400}
           maxHeight={1533}
-          width={550}
+          width={500}
           height={700}
           drawShadow
           disableFlipByClick // désactivation au click sur la page
