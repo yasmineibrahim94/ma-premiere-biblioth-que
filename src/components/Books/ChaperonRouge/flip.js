@@ -83,7 +83,8 @@ class Flip extends React.Component {
 
               <div className="page-img">
               <img className="img-book" src={img1}/></div>
-              <div className="page-text"><p className="text-book">Il était une foi<span className="text-color">s</span> une petite fille que tou<span className="text-color">t</span> le monde appelait le Peti<span className="text-color">t</span> Chaperon Rouge</p>
+              <div className="page-text">
+              <p className="text-book">Il était une foi<span className="text-color">s</span> une petite fille que tou<span className="text-color">t</span> le monde appelait le Peti<span className="text-color">t</span> Chaperon Rouge</p>
             </div>
 
 </div>
@@ -99,10 +100,10 @@ class Flip extends React.Component {
 
               <div className="page-img">
               <img className="img-book" src={img2}/></div>
-              <div className="page-text"><p className="text-book">
+              <div className="page-text">
+              <p className="text-book">
                 Un jour sa mère lui donna un panier : 
-                Mère-gran<span className="text-color">d</span> est malade, va lui porter cette galette et ce peti<span className="text-color">t</span> po<span className="text-color">t</span> de beurre
-              </p>
+                Mère-gran<span className="text-color">d</span> est malade, va lui porter cette galette et ce peti<span className="text-color">t</span> po<span className="text-color">t</span> de beurre</p>
             </div>
 
 </div>
@@ -117,11 +118,11 @@ class Flip extends React.Component {
 
               <div className="page-img">
               <img className="img-book" src={img3}/></div>
-              <div className="page-text"><p className="text-book">
-              Le Peti<span className="text-color">t</span> Chaperon Rouge se mi<span className="text-color">t</span> en chemin.
+              <div className="page-text">
+              <p className="text-book">Le Peti<span className="text-color">t</span> Chaperon Rouge se mi<span className="text-color">t</span> en chemin.
               Mais un lou<span className="text-color">p</span> affamé l'arrêta :</p>
-              <p className="text-book">"Où va<span className="text-color">s</span> tu ainsi?</p>
-              <p className="text-book">"Chez mère-gran<span className="text-color">d</span>" lui répondi<span className="text-color">t</span>-elle</p>
+              <p className="text-book">- Où va<span className="text-color">s</span> tu ainsi ?</p>
+              <p className="text-book">- Chez mère-gran<span className="text-color">d</span>, lui répondi<span className="text-color">t</span>-elle</p>
             </div>
 
 </div>
@@ -136,11 +137,11 @@ class Flip extends React.Component {
 
               <div className="page-img">
               <img className="img-book" src={img4}/></div>
-              <div className="page-text"><p className="text-book">
-              Le lou<span className="text-color">p</span> arriva le premier et frappa à la porte.</p>
-              <p className="text-book">"Qui est là? ", demanda Mère-gran<span className="text-color">d</span></p>
-              <p className="text-book">"C'est moi le Peti<span className="text-color">t</span> Chaperon Rouge", répondi<span className="text-color">t</span>-il en déguisan<span className="text-color">t</span> sa voi<span className="text-color">x</span>.</p>
-              <p className="text-book">-"Tire la chevillette, la bobinette cherra."</p>
+              <div className="page-text">
+              <p className="text-book">Le lou<span className="text-color">p</span> arriva le premier et frappa à la porte.</p>
+              <p className="text-book">- Qui est là? , demanda Mère-gran<span className="text-color">d</span></p>
+              <p className="text-book">- C'est moi le Peti<span className="text-color">t</span> Chaperon Rouge, répondi<span className="text-color">t</span>-il en déguisan<span className="text-color">t</span> sa voi<span className="text-color">x</span>.</p>
+              <p className="text-book">- Tire la chevillette, la bobinette cherra.</p>
               
             </div>
 
@@ -156,10 +157,9 @@ class Flip extends React.Component {
 
               <div className="page-img">
               <img className="img-book" src={img5}/></div>
-              <div className="page-text"><p className="text-book">
-                La porte s'ouvri<span className="text-color">t</span> et le lou<span className="text-color">p</span> se jeta sur Mère-gran<span className="text-color">d</span>.</p>
-                <p className="text-book">Pui<span className="text-color">s</span> il pri<span className="text-color">t</span> sa place dan<span className="text-color">s</span> son li<span className="text-color">t</span>.
-              </p>
+              <div className="page-text">
+              <p className="text-book">La porte s'ouvri<span className="text-color">t</span> et le lou<span className="text-color">p</span> se jeta sur Mère-gran<span className="text-color">d</span>.</p>
+                <p className="text-book">Pui<span className="text-color">s</span> il pri<span className="text-color">t</span> sa place dan<span className="text-color">s</span> son li<span className="text-color">t</span>.</p>
               <p className="text-book">C'est alor<span className="text-color">s</span> qu'on frappa à la porte.</p>
             </div>
 
@@ -176,11 +176,11 @@ class Flip extends React.Component {
               <div className="page-img">
               <img className="img-book" src={img6}/></div>
               <div className="page-text"><p className="text-book">
-                "Qui est là?", demanda le lou<span className="text-color">p</span> d'une voi<span className="text-color">x</span> douce.</p>
+                - Qui est là? , demanda le lou<span className="text-color">p</span> d'une voi<span className="text-color">x</span> douce.</p>
                 <p className="text-book">
-                "C'est le Peti<span className="text-color">t</span> Chaperon Rouge! Je vous apporte une galette et un po<span className="text-color">t</span> de beurre."</p>
+                - C'est le Peti<span className="text-color">t</span> Chaperon Rouge! Je vous apporte une galette et un po<span className="text-color">t</span> de beurre.</p>
                 <p className="text-book">
-                "Tire la chevillette, la bobinette cherra."
+                - Tire la chevillette, la bobinette cherra.
               </p>
             </div>
 
@@ -196,11 +196,12 @@ class Flip extends React.Component {
 
               <div className="page-img">
               <img className="img-book" src={img7}/></div>
-              <div className="page-text"><p className="text-book">
-                En regardan<span className="text-color">t</span> Mère-gran<span className="text-color">d</span> de plu<span className="text-color">s</span> prè<span className="text-color">s</span>, la fillette s'étonna :</p><p className="text-book">
-                "Mère-gran<span className="text-color">d</span> que vou<span className="text-color">s</span> avez de grande<span className="text-color">s</span> oreille<span className="text-color">s ! "</span></p><p className="text-book">
-                "C'est pour mieu<span className="text-color">x</span> t'entendre mon enfan<span className="text-color">t</span>..."
-              </p>
+              <div className="page-text">
+              <p className="text-book">En regardan<span className="text-color">t</span> Mère-gran<span className="text-color">d</span> de plu<span className="text-color">s</span> prè<span className="text-color">s</span>, la fillette s'étonna :</p>
+              <p className="text-book">
+                - Mère-gran<span className="text-color">d</span> que vou<span className="text-color">s</span> avez de grande<span className="text-color">s</span> oreille<span className="text-color">s </span>!</p>
+                <p className="text-book">
+                - C'est pour mieu<span className="text-color">x</span> t'entendre mon enfan<span className="text-color">t</span>...</p>
             </div>
 
 </div>
@@ -215,11 +216,9 @@ class Flip extends React.Component {
 
               <div className="page-img">
               <img className="img-book" src={img8}/></div>
-              <div className="page-text"><p className="text-book">
-                "Mère-gran<span className="text-color">d</span> que vou<span className="text-color">s</span> avez de gran<span className="text-color">ds</span> yeu<span className="text-color">x</span> !"</p>
-                <p className="text-book">
-                "C'est pour mieu<span className="text-color">x</span> te voir mon enfan<span className="text-color">t</span>..."
-              </p>
+              <div className="page-text">
+              <p className="text-book">- Mère-gran<span className="text-color">d</span> que vou<span className="text-color">s</span> avez de gran<span className="text-color">ds</span> yeu<span className="text-color">x</span> !</p>
+                <p className="text-book">- C'est pour mieu<span className="text-color">x</span> te voir mon enfan<span className="text-color">t</span>...</p>
             </div>
 
 </div>
@@ -234,13 +233,10 @@ class Flip extends React.Component {
 
               <div className="page-img">
               <img className="img-book" src={img9}/></div>
-              <div className="page-text"><p className="text-book">
-                "Mère-gran<span className="text-color">d</span> que vou<span className="text-color">s</span> avez de grande<span className="text-color">s</span> den<span className="text-color">ts</span> !"</p>
-                <p className="text-book">
-                "C'est pour mieu<span className="text-color">x</span> te croquer mon enfan<span className="text-color">t</span>!!"
-              </p>
-              <p className="text-book">
-              Et le lou<span className="text-color">p</span> se jeta sur le Peti<span className="text-color">t</span> Chaperon Rouge pour la dévorer !</p>
+              <div className="page-text">
+              <p className="text-book">- Mère-gran<span className="text-color">d</span> que vou<span className="text-color">s</span> avez de grande<span className="text-color">s</span> den<span className="text-color">ts</span> !</p>
+                <p className="text-book">- C'est pour mieu<span className="text-color">x</span> te croquer mon enfan<span className="text-color">t</span>!</p>
+              <p className="text-book">Et le lou<span className="text-color">p</span> se jeta sur le Peti<span className="text-color">t</span> Chaperon Rouge pour la dévorer !</p>
             </div>
 
 </div>
@@ -256,12 +252,11 @@ class Flip extends React.Component {
 
               <div className="page-img">
               <img className="img-book" src={img10}/></div>
-              <div className="page-text"><p className="text-book">
-               Un chasseur qui passait par là, entendi<span className="text-color">t</span> des cri<span className="text-color">s</span>. </p>
+              <div className="page-text">
+              <p className="text-book">Un chasseur qui passait par là, entendi<span className="text-color">t</span> des cri<span className="text-color">s</span>. </p>
+               <p className="text-book">Il se jeta aussitô<span className="text-color">t</span> sur le lou<span className="text-color">p</span> et la bataille fût terrible ! Mais le chasseur était très courageu<span className="text-color">x</span>.</p>
                <p className="text-book">
-               Il se jeta aussitô<span className="text-color">t</span> sur le lou<span className="text-color">p</span> et la bataille fût terrible ! Mais le chasseur était très courageu<span className="text-color">x</span>.</p>
-               <p className="text-book">
-               Il réussit à ligoter le lou<span className="text-color">p</span>et à sauver le Peti<span className="text-color">t</span> Chaperon Rouge et Mère-gran<span className="text-color">d</span>
+               Il réussit à ligoter le lou<span className="text-color">p</span> et à sauver le Peti<span className="text-color">t</span> Chaperon Rouge et Mère-gran<span className="text-color">d</span>.
               </p>
             </div>
 
