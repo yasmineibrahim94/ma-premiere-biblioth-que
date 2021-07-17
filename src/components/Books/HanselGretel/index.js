@@ -7,10 +7,10 @@ import FlipResponsive from './flipResponsive';
 // style import
 import '../style.scss';
 
-const VilainCanard = () => (
+const HanselGretel = () => (
   <div><div className="ListByFlipResponsiv"><FlipResponsive /></div>
   <div className="ListByFlip"> <Flip /> </div>
   </div>
 );
 
-export default VilainCanard;
+export default HanselGretel;

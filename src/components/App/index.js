@@ -12,7 +12,7 @@ import BoucleDor from '../Books/BoucleDor';
 import SourisVerte from '../Books/SourisVerte';
 import Chevreaux from '../Books/Chevreaux';
 import PouleRousse from '../Books/PouleRousse';
-import VilainCanard from '../Books/VilainCanard';
+import HanselGretel from '../Books/HanselGretel';
 
 
 
@@ -27,7 +27,7 @@ function App() {
         <Route path="/une_souris_verte" component={SourisVerte} />
         <Route path="/les_7_petits_chevreaux" component={Chevreaux} />
         <Route path="/la_petite_poule_rousse" component={PouleRousse} />
-        <Route path="/le_vilain_petit_canard" component={VilainCanard} />
+        <Route path="/hansel_et_gretel" component={HanselGretel} />
 
      
 
