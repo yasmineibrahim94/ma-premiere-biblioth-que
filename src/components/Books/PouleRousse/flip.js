@@ -1,14 +1,4 @@
 import React from 'react';
-import img1 from '../../../assets/fonts/ChaperonRouge/img1.jpg';
-import img2 from '../../../assets/fonts/ChaperonRouge/img2.jpg';
-import img3 from '../../../assets/fonts/ChaperonRouge/img3.jpg';
-import img4 from '../../../assets/fonts/ChaperonRouge/img4.jpeg';
-import img5 from '../../../assets/fonts/ChaperonRouge/img5.jpeg';
-import img6 from '../../../assets/fonts/ChaperonRouge/img6.jpeg'; 
-import img7 from '../../../assets/fonts/ChaperonRouge/img7.jpeg';
-import img8 from '../../../assets/fonts/ChaperonRouge/img8.jpg';
-import img9 from '../../../assets/fonts/ChaperonRouge/img9.jpg';
-import img10 from '../../../assets/fonts/ChaperonRouge/img10.jpg';
 
 // book import
 import HTMLFlipBook from 'react-pageflip';
@@ -16,6 +6,16 @@ import HTMLFlipBook from 'react-pageflip';
 // composants import
 import Header from '../../Header';
 import Footer from '../../Footer';
+import img1 from '../../../assets/fonts/Poule/img1.jpg';
+import img2 from '../../../assets/fonts/Poule/img2.jpg';
+import img3 from '../../../assets/fonts/Poule/img3.jpg';
+import img4 from '../../../assets/fonts/Poule/img4.jpg';
+import img5 from '../../../assets/fonts/Poule/img5.jpg';
+import img6 from '../../../assets/fonts/Poule/img6.jpg'; 
+import img7 from '../../../assets/fonts/Poule/img7.jpg';
+import img8 from '../../../assets/fonts/Poule/img8.jpg';
+import img9 from '../../../assets/fonts/Poule/img9.jpg';
+import img10 from '../../../assets/fonts/Poule/img10.jpg';
 
 // basic cover
 const PageCover = React.forwardRef((props, ref) => (
@@ -82,7 +82,8 @@ class Flip extends React.Component {
 
               <div className="page-img">
               <img className="img-book" src={img1}/></div>
-              <div className="page-text"><p className="text-book">Il était une foi<span className="text-color">s</span> une petite fille que tou<span className="text-color">t</span> le monde appelait le Peti<span className="text-color">t</span> Chaperon Rouge</p>
+              <div className="page-text">
+              <p className="text-book">Il était une fois une petite poule rousse qui cherchait quelque chose à manger. Un jour elle découvrit d'appétissants grains de blé et décida de les semer plutôt que de les picorer.</p>
             </div>
 
 </div>
@@ -93,15 +94,14 @@ class Flip extends React.Component {
           <Page number={1}>
           <div>
       
-          <h4 className="page-header">Le petit chaperon rouge</h4>
+          <h4 className="page-header">La petite poule rousse</h4>
       <div className="page" ref={this.ref}>
 
               <div className="page-img">
               <img className="img-book" src={img2}/></div>
-              <div className="page-text"><p className="text-book">
-                Un jour sa mère lui donna un panier : 
-                Mère-gran<span className="text-color">d</span> est malade, va lui porter cette galette et ce peti<span className="text-color">t</span> po<span className="text-color">t</span> de beurre
-              </p>
+              <div className="page-text">
+              <p className="text-book">- Cochon, mon ami cochon ! Peux-tu m'aider à semer ces grains de blé ? lui demanda la poule</p>
+              <p className="text-book">- Je ne peux pas ! Je dois aller prendre mon bain de boue</p>
             </div>
 
 </div>
@@ -111,16 +111,13 @@ class Flip extends React.Component {
           <Page number={2}>
           <div>
       
-          <h4 className="page-header">Le petit chaperon rouge</h4>
+          <h4 className="page-header">La petite poule rousse</h4>
       <div className="page" ref={this.ref}>
 
               <div className="page-img">
               <img className="img-book" src={img3}/></div>
-              <div className="page-text"><p className="text-book">
-              Le Peti<span className="text-color">t</span> Chaperon Rouge se mi<span className="text-color">t</span> en chemin.
-              Mais un lou<span className="text-color">p</span> affamé l'arrêta :</p>
-              <p className="text-book">"Où va<span className="text-color">s</span> tu ainsi?</p>
-              <p className="text-book">"Chez mère-gran<span className="text-color">d</span>" lui répondi<span className="text-color">t</span>-elle</p>
+              <div className="page-text">
+              <p className="text-book">Alors la petite poule rousse sema ses grains de blé toute seule et de beaux épis sortirent de terre.</p>
             </div>
 
 </div>
@@ -130,17 +127,14 @@ class Flip extends React.Component {
           <Page number={3}>
           <div>
       
-          <h4 className="page-header">Le petit chaperon rouge</h4>
+          <h4 className="page-header">La petite poule rousse</h4>
       <div className="page" ref={this.ref}>
 
               <div className="page-img">
               <img className="img-book" src={img4}/></div>
-              <div className="page-text"><p className="text-book">
-              Le lou<span className="text-color">p</span> arriva le premier et frappa à la porte.</p>
-              <p className="text-book">"Qui est là? ", demanda Mère-gran<span className="text-color">d</span></p>
-              <p className="text-book">"C'est moi le Peti<span className="text-color">t</span> Chaperon Rouge", répondi<span className="text-color">t</span>-il en déguisan<span className="text-color">t</span> sa voi<span className="text-color">x</span>.</p>
-              <p className="text-book">-"Tire la chevillette, la bobinette cherra."</p>
-              
+              <div className="page-text">
+              <p className="text-book">- Canard, mon ami canard ! Peux-tu m'aider à récolter ces épis de blé ? lui demanda la petite poule rousse</p>
+              <p className="text-book">- Je ne peux pas, je prends mon bain, lui répondit-il</p>             
             </div>
 
 </div>
@@ -150,16 +144,13 @@ class Flip extends React.Component {
           <Page number={4}>
           <div>
       
-          <h4 className="page-header">Le petit chaperon rouge</h4>
+          <h4 className="page-header">La petite poule rousse</h4>
       <div className="page" ref={this.ref}>
 
               <div className="page-img">
               <img className="img-book" src={img5}/></div>
-              <div className="page-text"><p className="text-book">
-                La porte s'ouvri<span className="text-color">t</span> et le lou<span className="text-color">p</span> se jeta sur Mère-gran<span className="text-color">d</span>.</p>
-                <p className="text-book">Pui<span className="text-color">s</span> il pri<span className="text-color">t</span> sa place dan<span className="text-color">s</span> son li<span className="text-color">t</span>.
-              </p>
-              <p className="text-book">C'est alor<span className="text-color">s</span> qu'on frappa à la porte.</p>
+              <div className="page-text">
+              <p className="text-book">Alors la petite poule rousse récolta ses épis toute seule, puis elle les mit dans un grand sac pour aller les moudre au moulin mais que le sac était lourd et la poule était petite !</p>
             </div>
 
 </div>
@@ -169,18 +160,15 @@ class Flip extends React.Component {
           <Page number={5}>
           <div>
       
-          <h4 className="page-header">Le petit chaperon rouge</h4>
+          <h4 className="page-header">La petite poule rousse</h4>
       <div className="page" ref={this.ref}>
 
               <div className="page-img">
               <img className="img-book" src={img6}/></div>
-              <div className="page-text"><p className="text-book">
-                "Qui est là?", demanda le lou<span className="text-color">p</span> d'une voi<span className="text-color">x</span> douce.</p>
+              <div className="page-text">
+              <p className="text-book">- Chat, mon ami chat ! Peux-tu m'aider à porter ce sac de blé ? lui demanda la petite poule rousse.</p>
                 <p className="text-book">
-                "C'est le Peti<span className="text-color">t</span> Chaperon Rouge! Je vous apporte une galette et un po<span className="text-color">t</span> de beurre."</p>
-                <p className="text-book">
-                "Tire la chevillette, la bobinette cherra."
-              </p>
+              - Je ne peux pas, je n'ai pas fini ma sieste, lui répondit-il.</p>
             </div>
 
 </div>
@@ -190,16 +178,13 @@ class Flip extends React.Component {
           <Page number={6}>
           <div>
       
-          <h4 className="page-header">Le petit chaperon rouge</h4>
+          <h4 className="page-header">La petite poule rousse</h4>
       <div className="page" ref={this.ref}>
 
               <div className="page-img">
               <img className="img-book" src={img7}/></div>
-              <div className="page-text"><p className="text-book">
-                En regardan<span className="text-color">t</span> Mère-gran<span className="text-color">d</span> de plu<span className="text-color">s</span> prè<span className="text-color">s</span>, la fillette s'étonna :</p><p className="text-book">
-                "Mère-gran<span className="text-color">d</span> que vou<span className="text-color">s</span> avez de grande<span className="text-color">s</span> oreille<span className="text-color">s ! "</span></p><p className="text-book">
-                "C'est pour mieu<span className="text-color">x</span> t'entendre mon enfan<span className="text-color">t</span>..."
-              </p>
+              <div className="page-text">
+              <p className="text-book">Alors la petite poule rousse porta ses lourds sacs de blé toute seule. Elle sortit les épis du sac toute seule. Elle sépara les grains des épis toute seule. Elle jeta les grains au moulin toute seule. Elle ramassa sa farine et la mis en sac toute seule.</p>
             </div>
 
 </div>
@@ -209,16 +194,15 @@ class Flip extends React.Component {
           <Page number={7}>
           <div>
       
-          <h4 className="page-header">Le petit chaperon rouge</h4>
+          <h4 className="page-header">La petite poule rousse</h4>
       <div className="page" ref={this.ref}>
 
               <div className="page-img">
               <img className="img-book" src={img8}/></div>
-              <div className="page-text"><p className="text-book">
-                "Mère-gran<span className="text-color">d</span> que vou<span className="text-color">s</span> avez de gran<span className="text-color">ds</span> yeu<span className="text-color">x</span> !"</p>
-                <p className="text-book">
-                "C'est pour mieu<span className="text-color">x</span> te voir mon enfan<span className="text-color">t</span>..."
-              </p>
+              <div className="page-text">
+              <p className="text-book">Puis arrivée chez elle, elle prit de l'eau, du sel, de la levure et sa farine pour préparer sa pâte à pain.</p>
+                <p className="text-book">Et de longs moments durant, elle pétrit la pâte toute seule. </p>
+                <p className="text-book">Ni le cochon, ni le canard, ni le chat ne vinrent l'aider.</p>
             </div>
 
 </div>
@@ -228,18 +212,15 @@ class Flip extends React.Component {
           <Page number={8}>
           <div>
       
-          <h4 className="page-header">Le petit chaperon rouge</h4>
+          <h4 className="page-header">La petite poule rousse</h4>
       <div className="page" ref={this.ref}>
 
               <div className="page-img">
               <img className="img-book" src={img9}/></div>
-              <div className="page-text"><p className="text-book">
-                "Mère-gran<span className="text-color">d</span> que vou<span className="text-color">s</span> avez de grande<span className="text-color">s</span> den<span className="text-color">ts</span> !"</p>
-                <p className="text-book">
-                "C'est pour mieu<span className="text-color">x</span> te croquer mon enfan<span className="text-color">t</span>!!"
-              </p>
-              <p className="text-book">
-              Et le lou<span className="text-color">p</span> se jeta sur le Peti<span className="text-color">t</span> Chaperon Rouge pour la dévorer !</p>
+              <div className="page-text">
+              <p className="text-book">Enfin le pain fut prêt et la poule le sortit du four. Quelle délicieuse odeur !</p>
+                <p className="text-book">Le cochon, le canard et le chat arrivèrent prestement : </p>
+              <p className="text-book">Poule, notre amie poule ! Pouvons-nous t'aider à manger ce bon pain ?</p>
             </div>
 
 </div>
@@ -250,17 +231,16 @@ class Flip extends React.Component {
           <Page number={9}>
           <div>
       
-          <h4 className="page-header">Le petit chaperon rouge</h4>
+          <h4 className="page-header">La petite poule rousse</h4>
       <div className="page" ref={this.ref}>
 
               <div className="page-img">
               <img className="img-book" src={img10}/></div>
-              <div className="page-text"><p className="text-book">
-               Un chasseur qui passait par là, entendi<span className="text-color">t</span> des cri<span className="text-color">s</span>. </p>
+              <div className="page-text">
+              <p className="text-book">La petite poule rousse réfléchit longuement puis dit :</p>
+               <p className="text-book">- J'ai semé le blé toute seule. J'ai récolté le blé toute seule. Jai porté les sacs toute seule. J'ai pétri la pâte toute seule. </p>
                <p className="text-book">
-               Il se jeta aussitô<span className="text-color">t</span> sur le lou<span className="text-color">p</span> et la bataille fût terrible ! Mais le chasseur était très courageu<span className="text-color">x</span>.</p>
-               <p className="text-book">
-               Il réussit à ligoter le lou<span className="text-color">p</span>et à sauver le Peti<span className="text-color">t</span> Chaperon Rouge et Mère-gran<span className="text-color">d</span>
+              Alors je vais manger ce bon pain TOUTE SEULE!
               </p>
             </div>
 
