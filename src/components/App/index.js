@@ -13,11 +13,12 @@ import SourisVerte from '../Books/SourisVerte';
 import Chevreaux from '../Books/Chevreaux';
 import PouleRousse from '../Books/PouleRousse';
 import HanselGretel from '../Books/HanselGretel';
-import SyllabiqueSouris from "../Books/SourisVerte/flipSyllabique"
-import SyllabiqueTroisCochons from "../Books/TroisCochons/flipSyllabique"
-import SyllabiquePoule from "../Books/PouleRousse/flipSyllabique"
-import SyllabiqueHansel from "../Books/HanselGretel/flipSyllabique"
-import SyllabiqueChevreaux from "../Books/Chevreaux/flipSyllabique"
+import SyllabiqueSouris from "../Books/SourisVerte/flipSyllabique";
+import SyllabiqueTroisCochons from "../Books/TroisCochons/flipSyllabique";
+import SyllabiquePoule from "../Books/PouleRousse/flipSyllabique";
+import SyllabiqueHansel from "../Books/HanselGretel/flipSyllabique";
+import SyllabiqueChevreaux from "../Books/Chevreaux/flipSyllabique";
+import SyllabiqueChaperon from "../Books/ChaperonRouge/flipSyllabique";
 
 
 
@@ -27,6 +28,7 @@ function App() {
       <Switch>
         <Route path="/" exact component={Homepage} />
         <Route path="/le_petit_chaperon_rouge" component={ChaperonRouge} />
+        <Route path="/le_petit_chaperon_rouge_syllabique" component={SyllabiqueChaperon} />
         <Route path="/les_3_petits_cochons" component={TroisCochons} />
         <Route path="/les_3_petits_cochons_syllabique" component={SyllabiqueTroisCochons} />
         <Route path="/boucle_d_or" component={BoucleDor} />
