@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom'
 
 // book import
 import HTMLFlipBook from 'react-pageflip';
@@ -54,6 +55,11 @@ class Flip extends React.Component {
       <div className="myRecipe_container">
         <Header />
 
+        <div className="buttons">
+<Link to="/les_7_petits_chevreaux" type="button" className="button">Version classique</Link>
+<Link to="/les_7_petits_chevreaux_syllabique" type="button" className="button">Version syllabique</Link>
+</div>
+
         <HTMLFlipBook
           width={500}
           height={700}
@@ -84,8 +90,8 @@ class Flip extends React.Component {
               <div className="page-img">
               <img className="img-book" src={img1}/></div>
               <div className="page-text">
-              <p className="text-book">Il était une fois une maman chèvre qui vivait avec ses septs petits chevreaux.</p>
-              <p className="text-book">- Je m'en vais chercher à manger. N'ouvrez à personne et surtout attention au loup! Vous le reconnaîtrez à sa voix grave et à ses longues pattes noires.</p>
+              <p className="text-book">Il étai<span className="text-color">t</span> une foi<span className="text-color">s</span> une maman chèvre qui vivai<span className="text-color">t</span> avec ses se<span className="text-color">p</span>t<span className="text-color">s</span> peti<span className="text-color">ts</span> chevreau<span className="text-color">x</span>.</p>
+              <p className="text-book">- Je m'en vai<span className="text-color">s</span> chercher à manger. N'ouvrez à personne et surtou<span className="text-color">t</span> attention au lou<span className="text-color">p</span>! Vou<span className="text-color">s</span> le reconnaîtrez à sa voi<span className="text-color">x</span> grave et à ses longue<span className="text-color">s</span> patte<span className="text-color">s</span> noire<span className="text-color">s</span>.</p>
             </div>
 
 </div>
@@ -102,9 +108,9 @@ class Flip extends React.Component {
               <div className="page-img">
               <img className="img-book" src={img2}/></div>
               <div className="page-text">
-              <p className="text-book">A peine fut-elle partie que le loup frappa à la porte.</p>
-              <p className="text-book">- C'est moi votre mère ! Ouvrez-moi mes chers enfants...</p>
-              <p className="text-book">- Notre maman a une voix douce, pas toi ! Tu es le loup nous n'ouvrirons pas.</p>
+              <p className="text-book">A peine fu<span className="text-color">t</span>-elle parti<span className="text-color">t</span> que le lou<span className="text-color">p</span> frappa à la porte.</p>
+              <p className="text-book">- C'est moi votre mère ! Ouvrez-moi mes cher<span className="text-color">s</span> enfan<span className="text-color">ts</span>...</p>
+              <p className="text-book">- Notre maman a une voi<span className="text-color">x</span> douce, pa<span className="text-color">s</span> toi ! Tu es le lou<span className="text-color">p</span> nous n'ouvriron<span className="text-color">s</span> pa<span className="text-color">s</span>.</p>
             </div>
 
 </div>
@@ -120,9 +126,9 @@ class Flip extends React.Component {
               <div className="page-img">
               <img className="img-book" src={img3}/></div>
               <div className="page-text">
-              <p className="text-book">Mais le loup était bien décidé à les croquer et avala de la croix pour adoucir sa voix.</p>
-              <p className="text-book">- C'est moi votre mère, ouvrez-moi mes chers enfants...</p>
-              <p className="text-book">Mais les chevreaux virent la patte noire du loup et n'ouvrirent pas.</p>
+              <p className="text-book">Mai<span className="text-color">s</span> le lou<span className="text-color">p</span> étai<span className="text-color">t</span> bien décidé à les croquer et avala de la crai<span className="text-color">e</span> pour adoucir sa voi<span className="text-color">x</span>.</p>
+              <p className="text-book">- C'est moi votre mère, ouvrez-moi mes cher<span className="text-color">s</span> enfan<span className="text-color">ts</span>...</p>
+              <p className="text-book">Mai<span className="text-color">s</span> les chevreau<span className="text-color">x</span> vire<span className="text-color">nt</span> la patte noire du lou<span className="text-color">p</span> et n'ouvrire<span className="text-color">nt</span> pa<span className="text-color">s</span>.</p>
             </div>
 
 </div>
@@ -138,10 +144,10 @@ class Flip extends React.Component {
               <div className="page-img">
               <img className="img-book" src={img4}/></div>
               <div className="page-text">
-              <p className="text-book">Alors le loup trouva de la farine pour y plonger sa patte.</p>
-              <p className="text-book">- C'est moi votre mère, ouvrez-moi mes chers enfants...</p>
+              <p className="text-book">Alor<span className="text-color">s</span> le lou<span className="text-color">p</span> trouva de la farine pour y plonger sa patte.</p>
+              <p className="text-book">- C'est moi votre mère, ouvrez-moi mes cher<span className="text-color">s</span> enfan<span className="text-color">ts</span>...</p>
               <p className="text-book">- Montre patte blanche !</p>
-              <p className="text-book">Le loup montra sa patte blanche et la porte s'ouvrit. Il se jeta aussitôt sur les chevreaux et les dévora tous sauf le petit dernier qui eut le temps de se cacher.</p>
+              <p className="text-book">Le lou<span className="text-color">p</span> montra sa patte blanche et la porte s'ouvri<span className="text-color">t</span>. Il se jeta aussitô<span className="text-color">t</span> sur les chevreau<span className="text-color">x</span> et les dévora tous sauf le peti<span className="text-color">t</span> dernier qui eu<span className="text-color">t</span> le tem<span className="text-color">ps</span> de se cacher.</p>
               
             </div>
 
@@ -159,7 +165,7 @@ class Flip extends React.Component {
               <img className="img-book" src={img5}/></div>
               <div className="page-text">
               <p className="text-book">A son retour, maman chèvre trouva la maison en désordre et un seul chevreau terrifié.</p>
-                <p className="text-book">Le loup est venu, raconta-t-il. Il a mangé tous mes frères.</p>
+                <p className="text-book">Le lou<span className="text-color">p</span> est venu, raconta-t-il. Il a mangé tou<span className="text-color">s</span> mes frère<span className="text-color">s</span>.</p>
             </div>
 
 </div>
@@ -175,9 +181,9 @@ class Flip extends React.Component {
               <div className="page-img">
               <img className="img-book" src={img6}/></div>
               <div className="page-text">
-              <p className="text-book">Ils trouvèrent le loup endormi au pied d'un arbre.</p>
-                <p className="text-book">- Vite ! des ciseaux, du fil et une aiguille ! dit la mère à son petit</p>
-                <p className="text-book">Cric-Cric ! Maman chèvre découpa le ventre du loup et en sorti six petits chevreaux effrayés mais vivants. Puis elle mit six grosses pierres dans le ventre du loup avant de le recoudre.</p>
+              <p className="text-book">Il<span className="text-color">s</span> <span className="text-color">s</span>trouvère<span className="text-color">nt</span> le lou<span className="text-color">p</span> endormi au pie<span className="text-color">d</span> d'un arbre.</p>
+                <p className="text-book">- Vite ! des ciseau<span className="text-color">x</span>, du fil et une aiguille ! di<span className="text-color">t</span> la mère à son peti<span className="text-color">t</span></p>
+                <p className="text-book">Cric-Cric ! Maman chèvre découpa le ventre du lou<span className="text-color">p</span> et en sorti six peti<span className="text-color">ts</span> chevreau<span className="text-color">x</span> effrayé<span className="text-color">s</span> mai<span className="text-color">s</span> vivan<span className="text-color">ts</span>. Pui<span className="text-color">s</span> elle mi<span className="text-color">t</span> six grosse<span className="text-color">s</span> pierre<span className="text-color">s</span> dan<span className="text-color">s</span> le ventre du lou<span className="text-color">p</span> avan<span className="text-color">t</span> de le recoudre.</p>
             </div>
 
 </div>
@@ -193,8 +199,8 @@ class Flip extends React.Component {
               <div className="page-img">
               <img className="img-book" src={img7}/></div>
               <div className="page-text">
-              <p className="text-book">Le loup en se réveillant avait le ventre si lourd qu'il voulut boire au ouits mais il tomba tout au fond !</p>
-                <p className="text-book">Et personne ne le revit jamais....</p>
+              <p className="text-book">Le lou<span className="text-color">p</span> en se réveillan<span className="text-color">t</span> avai<span className="text-color">t</span> le ventre si lour<span className="text-color">d</span> qu'il voulu<span className="text-color">t</span> boire au pui<span className="text-color">ts</span> mai<span className="text-color">s</span> il tomba tou<span className="text-color">t</span> au fon<span className="text-color">d</span> !</p>
+                <p className="text-book">Et personne ne le revi<span className="text-color">t</span> jamai<span className="text-color">s</span>...</p>
             </div>
 
 </div>
