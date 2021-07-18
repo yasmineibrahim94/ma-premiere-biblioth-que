@@ -16,6 +16,7 @@ import HanselGretel from '../Books/HanselGretel';
 import SyllabiqueSouris from "../Books/SourisVerte/flipSyllabique"
 import SyllabiqueTroisCochons from "../Books/TroisCochons/flipSyllabique"
 import SyllabiquePoule from "../Books/PouleRousse/flipSyllabique"
+import SyllabiqueHansel from "../Books/HanselGretel/flipSyllabique"
 
 
 
@@ -34,6 +35,8 @@ function App() {
         <Route path="/la_petite_poule_rousse" component={PouleRousse} />
         <Route path="/la_petite_poule_rousse_syllabique" component={SyllabiquePoule} />
         <Route path="/hansel_et_gretel" component={HanselGretel} />
+        <Route path="/hansel_et_gretel_syllabique" component={SyllabiqueHansel} />
+
 
      
 
