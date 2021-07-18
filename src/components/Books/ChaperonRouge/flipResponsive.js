@@ -54,10 +54,10 @@ class FlipResponsive extends React.Component {
       <div className="stpageflip">
         <Header />
         <HTMLFlipBook
-          minWidth={315}
-          maxWidth={1000}
-          minHeight={400}
-          maxHeight={1533}
+          //minWidth={315}
+          //maxWidth={1000}
+          //minHeight={400}
+          //maxHeight={1533}
           width={315}
           height={400}
           drawShadow
@@ -85,7 +85,7 @@ class FlipResponsive extends React.Component {
               <div className="page-img">
               <img className="img-book-responsive" src={img1}/></div>
               <div className="page-text">
-              <p className="text-book-responsive">Il était une foi<span className="text-color">s</span> une petite fille que tou<span className="text-color">t</span> le monde appelait le Peti<span className="text-color">t</span> Chaperon Rouge</p>
+              <p className="text-book-responsive">Il étai<span className="text-color">t</span> une foi<span className="text-color">s</span> une petite fille que tou<span className="text-color">t</span> le monde appelai<span className="text-color">t</span> le Peti<span className="text-color">t</span> Chaperon Rouge</p>
             </div>
 
 </div>
@@ -98,7 +98,6 @@ class FlipResponsive extends React.Component {
       
           <h4 className="page-header">Le petit chaperon rouge</h4>
       <div className="page" ref={this.ref}>
-
               <div className="page-img">
               <img className="img-book-responsive" src={img2}/></div>
               <div className="page-text">
@@ -121,7 +120,7 @@ class FlipResponsive extends React.Component {
               <img className="img-book-responsive" src={img3}/></div>
               <div className="page-text">
               <p className="text-book-responsive">Le Peti<span className="text-color">t</span> Chaperon Rouge se mi<span className="text-color">t</span> en chemin.
-              Mais un lou<span className="text-color">p</span> affamé l'arrêta :</p>
+              Mai<span className="text-color">s</span> un lou<span className="text-color">p</span> affamé l'arrêta :</p>
               <p className="text-book-responsive">- Où va<span className="text-color">s</span> tu ainsi ?</p>
               <p className="text-book-responsive">- Chez mère-gran<span className="text-color">d</span>, lui répondi<span className="text-color">t</span>-elle</p>
             </div>
@@ -176,11 +175,10 @@ class FlipResponsive extends React.Component {
 
               <div className="page-img">
               <img className="img-book-responsive" src={img6}/></div>
-              <div className="page-text">
-              <p className="text-book-responsive">
+              <div className="page-text"><p className="text-book-responsive">
                 - Qui est là? , demanda le lou<span className="text-color">p</span> d'une voi<span className="text-color">x</span> douce.</p>
                 <p className="text-book-responsive">
-                - C'est le Peti<span className="text-color">t</span> Chaperon Rouge! Je vous apporte une galette et un po<span className="text-color">t</span> de beurre.</p>
+                - C'est le Peti<span className="text-color">t</span> Chaperon Rouge! Je vou<span className="text-color">s</span> apporte une galette et un po<span className="text-color">t</span> de beurre.</p>
                 <p className="text-book-responsive">
                 - Tire la chevillette, la bobinette cherra.
               </p>
@@ -201,7 +199,7 @@ class FlipResponsive extends React.Component {
               <div className="page-text">
               <p className="text-book-responsive">En regardan<span className="text-color">t</span> Mère-gran<span className="text-color">d</span> de plu<span className="text-color">s</span> prè<span className="text-color">s</span>, la fillette s'étonna :</p>
               <p className="text-book-responsive">
-                - Mère-gran<span className="text-color">d</span> que vou<span className="text-color">s</span> avez de grande<span className="text-color">s</span> oreille<span className="text-color">s</span> !</p>
+                - Mère-gran<span className="text-color">d</span> que vou<span className="text-color">s</span> avez de grande<span className="text-color">s</span> oreille<span className="text-color">s </span>!</p>
                 <p className="text-book-responsive">
                 - C'est pour mieu<span className="text-color">x</span> t'entendre mon enfan<span className="text-color">t</span>...</p>
             </div>
@@ -255,17 +253,16 @@ class FlipResponsive extends React.Component {
               <div className="page-img">
               <img className="img-book-responsive" src={img10}/></div>
               <div className="page-text">
-              <p className="text-book-responsive">Un chasseur qui passait par là, entendi<span className="text-color">t</span> des cri<span className="text-color">s</span>. </p>
-               <p className="text-book-responsive">Il se jeta aussitô<span className="text-color">t</span> sur le lou<span className="text-color">p</span> et la bataille fût terrible ! Mais le chasseur était très courageu<span className="text-color">x</span>.</p>
+              <p className="text-book-responsive">Un chasseur qui passai<span className="text-color">t</span> par là, entendi<span className="text-color">t</span> des cri<span className="text-color">s</span>. </p>
+               <p className="text-book-responsive">Il se jeta aussitô<span className="text-color">t</span> sur le lou<span className="text-color">p</span> et la bataille fû<span className="text-color">t</span> terrible ! Mai<span className="text-color">s</span> le chasseur étai<span className="text-color">t</span> trè<span className="text-color">s</span> courageu<span className="text-color">x</span>.</p>
                <p className="text-book-responsive">
-               Il réussit à ligoter le lou<span className="text-color">p</span> et à sauver le Peti<span className="text-color">t</span> Chaperon Rouge et Mère-gran<span className="text-color">d</span>.
+               Il réussi<span className="text-color">t</span> à ligoter le lou<span className="text-color">p</span> et à sauver le Peti<span className="text-color">t</span> Chaperon Rouge et Mère-gran<span className="text-color">d</span>.
               </p>
             </div>
 
 </div>
     </div>
-          </Page>
-
+</Page>
           
           <PageCover>Fin</PageCover>
 

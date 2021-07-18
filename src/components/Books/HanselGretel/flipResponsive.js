@@ -73,97 +73,97 @@ class FlipResponsive extends React.Component {
 <PageCover>Hansel et Gretel</PageCover>
 
 <Page number={0}>
-<div>
+          <div>
+      
+          <h4 className="page-header">Hansel et Gretel</h4>
+      <div className="page" ref={this.ref}>
 
-<h4 className="page-header">Hansel et Gretel</h4>
-<div className="page" ref={this.ref}>
-
-    <div className="page-img">
-    <img className="img-book-responsive" src={img1}/></div>
-    <div className="page-text">
-    <p className="text-book-responsive">Il était une foi<span className="text-color">s</span> un frère et une soeur qui s'appelaient Hansel et Gretel. Leurs parents étaient si pauvres qu'un jour ils durent abandonner les deux enfants dans la forêt.</p>
-    <p className="text-book-responsive">Après avoir érré plusieurs jours, ils découvrirent une bien appétissante maison. Tout en bonbons et friandises !</p>
-  </div>
-
-</div>
-</div>
-</Page>
-
-
-<Page number={1}>
-<div>
-
-<h4 className="page-header">Hansel et Gretel</h4>
-<div className="page" ref={this.ref}>
-
-    <div className="page-img">
-    <img className="img-book-responsive" src={img2}/></div>
-    <div className="page-text">
-    <p className="text-book-responsive">Les enfants se précipitèrent pour la croquer mais la porte de biscuit s'ouvrit sur une vieille femme : </p>
-    <p className="text-book-responsive">- Venez, mes chers enfants je vais vous donner à manger !</p>
-    <p className="text-book-responsive">Hansel et Gretel entrèrent dans la maison.
-    
-    </p>
-  </div>
+              <div className="page-img">
+              <img className="img-book-responsive" src={img1}/></div>
+              <div className="page-text">
+              <p className="text-book-responsive">Il étai<span className="text-color">t</span> une foi<span className="text-color">s</span> un frère et une s<span className="text-color">o</span>eur qui s'appelai<span className="text-color">ent</span> <span className="text-color">H</span>ansel et Gretel. Leur<span className="text-color">s</span> paren<span className="text-color">ts</span> étai<span className="text-color">ent</span> si pauvre<span className="text-color">s</span> qu'un jour il<span className="text-color">s</span> dure<span className="text-color">nt</span> abandonner les deu<span className="text-color">x</span> enfan<span className="text-color">ts</span> dan<span className="text-color">s</span> la forê.<span className="text-color">t</span></p>
+              <p className="text-book-responsive">Aprè<span className="text-color">s</span> avoir érré plusieur<span className="text-color">s</span> jour<span className="text-color">s</span>, il<span className="text-color">s</span> découvrire<span className="text-color">nt</span> une bien appétissante maison. Tou<span className="text-color">t</span> en bonbon<span className="text-color">s</span> et friandise<span className="text-color">s</span> !</p>
+            </div>
 
 </div>
-</div>
-</Page>
+    </div>
+          </Page>
 
-<Page number={2}>
-<div>
 
-<h4 className="page-header">Hansel et Gretel</h4>
-<div className="page" ref={this.ref}>
+          <Page number={1}>
+          <div>
+      
+          <h4 className="page-header">Hansel et Gretel</h4>
+      <div className="page" ref={this.ref}>
 
-    <div className="page-img">
-    <img className="img-book-responsive" src={img3}/></div>
-    <div className="page-text">
-    <p className="text-book-responsive">Mais la vieille femme était une sorcière !</p>
-    <p className="text-book-responsive">Elle enferma Hansel dans une cage et lui apporta chaque jours des friandises, gâteaux et bonbons juqu'à ce qu'elle le trouve assez gros pour le dévorer tandis que Gretel était condamnée à récurer la maison.</p>
-  </div>
-
-</div>
-</div>
-</Page>
-
-<Page number={3}>
-<div>
-
-<h4 className="page-header">Hansel et Gretel</h4>
-<div className="page" ref={this.ref}>
-
-    <div className="page-img">
-    <img className="img-book-responsive" src={img4}/></div>
-    <div className="page-text">
-    <p className="text-book-responsive">La sorcière alluma le four et demanda à Gretel de rentrer dedans pour vérifier qu'il était assez chaud.</p>
-    <p className="text-book-responsive">- Je ne sais pas comment faire, montre moi ! lui répondit Gretel.</p>
-    <p className="text-book-responsive">La sorcière passa la tête dans le four et Gretel la poussa très fort et referma la porte. Elle eut beau taper, hurler mais la sorcière brûla.</p>
-    
-  </div>
+              <div className="page-img">
+              <img className="img-book-responsive" src={img2}/></div>
+              <div className="page-text">
+              <p className="text-book-responsive">Les enfan<span className="text-color">ts</span> se précipitère<span className="text-color">nt</span> pour la croquer mai<span className="text-color">s</span> la porte de biscui<span className="text-color">t</span> s'ouvri<span className="text-color">t</span> sur une vieille femme : </p>
+              <p className="text-book-responsive">- Venez, mes cher<span className="text-color">s</span> enfan<span className="text-color">ts</span> je vai<span className="text-color">s</span> vou<span className="text-color">s</span> donner à manger !</p>
+              <p className="text-book-responsive"><span className="text-color">H</span>ansel et Gretel entrère<span className="text-color">nt</span> dan<span className="text-color">s</span> la maison.
+              
+              </p>
+            </div>
 
 </div>
-</div>
-</Page>
+    </div>
+          </Page>
 
-<Page number={4}>
-<div>
+          <Page number={2}>
+          <div>
+      
+          <h4 className="page-header">Hansel et Gretel</h4>
+      <div className="page" ref={this.ref}>
 
-<h4 className="page-header">Hansel et Gretel</h4>
-<div className="page" ref={this.ref}>
-
-    <div className="page-img">
-    <img className="img-book-responsive" src={img5}/></div>
-    <div className="page-text">
-    <p className="text-book-responsive">Puis Gretel courut délivrer Hansel.</p>
-    <p className="text-book-responsive">En fouillant le grenier, ils découvrirent une cachette secrète avec plein de pièces d'or et d'argent, des diamants et des bijoux.</p>
-    <p className="text-book-responsive">Hansel et Gretel allaient pouvoir rejoindre leurs parents et vivrent heureux à l'abri du besoin.</p>
-    
-  </div>
+              <div className="page-img">
+              <img className="img-book-responsive" src={img3}/></div>
+              <div className="page-text">
+              <p className="text-book-responsive">Mai<span className="text-color">s</span> la vieille femme étai<span className="text-color">s</span> une sorcière !</p>
+              <p className="text-book-responsive">Elle enferma <span className="text-color">H</span>ansel dan<span className="text-color">s</span> une cage et lui apporta chaque jour des friandise<span className="text-color">s</span>, gâteau<span className="text-color">x</span> et bonbon<span className="text-color">s</span> jusqu'à ce qu'elle le trouve assez gro<span className="text-color">s</span> pour le dévorer tandi<span className="text-color">s</span> que Gretel étai<span className="text-color">t</span> condamné<span className="text-color">e</span> à récurer la maison.</p>
+            </div>
 
 </div>
+    </div>
+          </Page>
+
+          <Page number={3}>
+          <div>
+      
+          <h4 className="page-header">Hansel et Gretel</h4>
+      <div className="page" ref={this.ref}>
+
+              <div className="page-img">
+              <img className="img-book-responsive" src={img4}/></div>
+              <div className="page-text">
+              <p className="text-book-responsive">La sorcière alluma le four et demanda à Gretel de rentrer dedan<span className="text-color">s</span> pour vérifier qu'il étai<span className="text-color">t</span> assez chau<span className="text-color">d</span>.</p>
+              <p className="text-book-responsive">- Je ne sai<span className="text-color">s</span> pas commen<span className="text-color">t</span> faire, montre moi ! lui répondi<span className="text-color">t</span> Gretel.</p>
+              <p className="text-book-responsive">La sorcière passa la tête dans le four et Gretel la poussa trè<span className="text-color">s</span> for<span className="text-color">t</span> et referma la porte. Elle eu<span className="text-color">t</span> beau taper, hurler, Gretel n'ouvri<span className="text-color">t</span> pa<span className="text-color">s</span> et la sorcière brûla.</p>
+              
+            </div>
+
 </div>
-</Page>
+    </div>
+          </Page>
+
+          <Page number={4}>
+          <div>
+      
+          <h4 className="page-header">Hansel et Gretel</h4>
+      <div className="page" ref={this.ref}>
+
+              <div className="page-img">
+              <img className="img-book-responsive" src={img5}/></div>
+              <div className="page-text">
+              <p className="text-book-responsive">Pui<span className="text-color">s</span> Gretel couru<span className="text-color">t</span> délivrer <span className="text-color">H</span>ansel.</p>
+              <p className="text-book-responsive">En fouillan<span className="text-color">t</span> le grenier, il<span className="text-color">s</span> découvrire<span className="text-color">nt</span> une cachette secrète avec plein de pièce<span className="text-color">s</span> d'or et d'argen<span className="text-color">t</span>, des diaman<span className="text-color">ts</span> et des bijou<span className="text-color">x</span>.</p>
+              <p className="text-book-responsive"><span className="text-color">H</span>ansel et Gretel allai<span className="text-color">ent</span> pouvoir rejoindre leur<span className="text-color">s</span> paren<span className="text-color">ts</span> et vivre<span className="text-color">nt</span> <span className="text-color">h</span>eureu<span className="text-color">x</span> à l'abri du besoin.</p>
+              
+            </div>
+
+</div>
+    </div>
+          </Page>
 
 
 

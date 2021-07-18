@@ -86,8 +86,8 @@ class FlipResponsive extends React.Component {
               <div className="page-text">
               <p className="text-book-responsive">
                 Une souri<span className="text-color">s</span> verte</p>
-                <p className="text-book-responsive">Qui courait dan<span className="text-color">s</span> l'<span className="text-color">h</span>erbe</p>
-                <p className="text-book-responsive">Je l'attrape par la queue</p>
+                <p className="text-book-responsive">Qui courai<span className="text-color">t</span> dan<span className="text-color">s</span> l'<span className="text-color">h</span>erbe</p>
+                <p className="text-book-responsive">Je l'attrape par la queu<span className="text-color">e</span></p>
                 <p className="text-book-responsive"> Je la montre à ces monsieu<span className="text-color">rs</span>
               </p>
             </div>
@@ -105,10 +105,10 @@ class FlipResponsive extends React.Component {
               <div className="page-img">
               <img className="img-book-responsive" src={img2}/></div>
               <div className="page-text">
-              <p className="text-book-responsive">Ces monsieur<span className="text-color">s</span> me disent</p>
+              <p className="text-book-responsive">Ces monsieu<span className="text-color">rs</span> me dise<span className="text-color">nt</span></p>
               <p className="text-book-responsive">Trempez la dan<span className="text-color">s</span> l'<span className="text-color">h</span>uile</p>
-              <p className="text-book-responsive">Trempez la dans l'eau</p>
-              <p className="text-book-responsive">Ca fera un escargo<span className="text-color">t</span> tou<span className="text-color">t</span> chau<span className="text-color">d</span>!
+              <p className="text-book-responsive">Trempez la dan<span className="text-color">s</span> l'eau</p>
+              <p className="text-book-responsive">ça fera un escargo<span className="text-color">t</span> tou<span className="text-color">t</span> chau<span className="text-color">d</span>!
              </p>
             </div>
 
@@ -126,7 +126,7 @@ class FlipResponsive extends React.Component {
               <img className="img-book-responsive" src={img3}/></div>
               <div className="page-text">
               <p className="text-book-responsive">Je la met<span className="text-color">s</span> dan<span className="text-color">s</span> mon tiroir,</p>
-              <p className="text-book-responsive">Elle me di<span className="text-color">t</span> : "il fait tro<span className="text-color">p</span> noir"</p>
+              <p className="text-book-responsive">Elle me di<span className="text-color">t</span> : "il fai<span className="text-color"></span> tro<span className="text-color">p</span> noir"</p>
           
               
               
