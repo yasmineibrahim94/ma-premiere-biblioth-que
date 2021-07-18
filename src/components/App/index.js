@@ -13,6 +13,9 @@ import SourisVerte from '../Books/SourisVerte';
 import Chevreaux from '../Books/Chevreaux';
 import PouleRousse from '../Books/PouleRousse';
 import HanselGretel from '../Books/HanselGretel';
+import SyllabiqueSouris from "../Books/SourisVerte/flipSyllabique"
+import SyllabiqueTroisCochons from "../Books/TroisCochons/flipSyllabique"
+import SyllabiquePoule from "../Books/PouleRousse/flipSyllabique"
 
 
 
@@ -23,10 +26,13 @@ function App() {
         <Route path="/" exact component={Homepage} />
         <Route path="/le_petit_chaperon_rouge" component={ChaperonRouge} />
         <Route path="/les_3_petits_cochons" component={TroisCochons} />
+        <Route path="/les_3_petits_cochons_syllabique" component={SyllabiqueTroisCochons} />
         <Route path="/boucle_d_or" component={BoucleDor} />
         <Route path="/une_souris_verte" component={SourisVerte} />
+        <Route path="/une_souris_verte_syllabique" component={SyllabiqueSouris} />
         <Route path="/les_7_petits_chevreaux" component={Chevreaux} />
         <Route path="/la_petite_poule_rousse" component={PouleRousse} />
+        <Route path="/la_petite_poule_rousse_syllabique" component={SyllabiquePoule} />
         <Route path="/hansel_et_gretel" component={HanselGretel} />
 
      

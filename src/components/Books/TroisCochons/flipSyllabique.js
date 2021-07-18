@@ -38,7 +38,7 @@ const Page = React.forwardRef((props, ref) => (
 ));
 
 // page with changes
-class Flip extends React.Component {
+class SyllabiqueTroisCochons extends React.Component {
   constructor(props) {
     super(props);
 
@@ -92,8 +92,8 @@ class Flip extends React.Component {
               <div className="page-img">
               <img className="img-book" src={img1}/></div>
               <div className="page-text">
-              <p className="text-book">Il étai<span className="text-color"></span> une foi<span className="text-color">s</span> troi<span className="text-color">s</span> peti<span className="text-color">ts</span> cochon<span className="text-color">s</span> tou<span className="text-color">t</span> rose<span className="text-color">s</span> et tou<span className="text-color">t</span> ron<span className="text-color">ds.</span></p>
-              <p className="text-book">Le tem<span className="text-color">ps</span> étai<span className="text-color">t</span> venu pour eu<span className="text-color">x</span> de quitter papa et maman et de se construire chacun une belle maison.</p>
+              <p className="text-book">Il é-tai<span className="text-color"></span> une foi<span className="text-color">s</span> troi<span className="text-color">s</span> pe-ti<span className="text-color">ts</span> co-chon<span className="text-color">s</span> tou<span className="text-color">t</span> ro-se<span className="text-color">s</span> et tou<span className="text-color">t</span> ron<span className="text-color">ds.</span></p>
+              <p className="text-book">Le tem<span className="text-color">ps</span> é-tai<span className="text-color">t</span> ve-nu pour eu<span className="text-color">x</span> de qui-tter pa-pa et ma-man et de se cons-trui-re cha-cun une bel-le mai-son.</p>
             </div>
 
 </div>
@@ -111,9 +111,9 @@ class Flip extends React.Component {
               <img className="img-book" src={img2}/></div>
               <div className="page-text">
               <p className="text-book">
-               Le premier peti<span className="text-color">t</span> cochon di<span className="text-color">t</span> :</p>
-               <p className="text-book">- Moi, je vai<span className="text-color">s</span> construire une maison tou<span className="text-color">t</span> en paille!</p>
-               <p className="text-book"> Et aussitô<span className="text-color">t</span>, il se mi<span className="text-color">t</span> au travail.
+               Le pre-mi-er pe-ti<span className="text-color">t</span> co-chon di<span className="text-color">t</span> :</p>
+               <p className="text-book">- Moi, je vai<span className="text-color">s</span> cons-trui-re une mai-son tou<span className="text-color">t</span> en pail-le!</p>
+               <p className="text-book"> Et aus-si-tô<span className="text-color">t</span>, il se mi<span className="text-color">t</span> au tra-vail.
               </p>
             </div>
 
@@ -130,9 +130,9 @@ class Flip extends React.Component {
               <div className="page-img">
               <img className="img-book" src={img3}/></div>
               <div className="page-text">
-              <p className="text-book">Le deuxième peti<span className="text-color">t</span> cochon di<span className="text-color">t</span> :</p>
-              <p className="text-book">- Moi, je vai<span className="text-color">s</span> construire une maison tou<span className="text-color">t</span> en boi<span className="text-color">s</span> !</p>
-              <p className="text-book"> Et aussitô<span className="text-color">t</span>, il se mi<span className="text-color">t</span> au travail.</p>
+              <p className="text-book">Le deu-xi-ème pe-ti<span className="text-color">t</span> co-chon di<span className="text-color">t</span> :</p>
+              <p className="text-book">- Moi, je vai<span className="text-color">s</span> cons-trui-re une mai-son tou<span className="text-color">t</span> en boi<span className="text-color">s</span> !</p>
+              <p className="text-book"> Et aus-si-tô<span className="text-color">t</span>, il se mi<span className="text-color">t</span> au tra-vail.</p>
 
             </div>
 
@@ -149,8 +149,8 @@ class Flip extends React.Component {
               <div className="page-img">
               <img className="img-book" src={img4}/></div>
               <div className="page-text">
-              <p className="text-book">Le troisième peti<span className="text-color">t</span> cochon, décida de construire une maison en brique<span className="text-color">s</span>. Cela pri<span className="text-color">s</span> plus de tem<span className="text-color">ps</span>.</p>
-              <p className="text-book">Et devinez qui observai<span className="text-color">t</span> les troi<span className="text-color">s</span> peti<span className="text-color">ts</span> cochon<span className="text-color">s</span> en se léchan<span className="text-color">t</span> les babine<span className="text-color">s</span>?
+              <p className="text-book">Le troi-si-ème pe-ti<span className="text-color">t</span> co-chon, dé-ci-da de cons-trui-re une mai-son en bri-que<span className="text-color">s</span>. Ce-la pri<span className="text-color">s</span> plus de tem<span className="text-color">ps</span>.</p>
+              <p className="text-book">Et de-vi-nez qui ob-ser-vai<span className="text-color">t</span> les troi<span className="text-color">s</span> pe-ti<span className="text-color">ts</span> co-chon<span className="text-color">s</span> en se lé-chan<span className="text-color">t</span> les ba-bi-ne<span className="text-color">s</span>?
               </p>
               
             </div>
@@ -170,8 +170,8 @@ class Flip extends React.Component {
               <img className="img-book" src={img5}/></div>
               <div className="page-text">
               <p className="text-book">Le lou<span className="text-color">p</span> bien sûr !</p>
-              <p className="text-book"> Et 1, 2, 3... il souffla sur la maison de paille qui s'envola !</p>
-              <p className="text-book">Et 4, 5, 6... il souffla sur la maison de boi<span className="text-color">s</span> qui s'envola aussi !
+              <p className="text-book"> Et 1, 2, 3... il souf-fla sur la mai-son de pail-le qui s'en-vo-la !</p>
+              <p className="text-book">Et 4, 5, 6... il souf-fla sur la mai-son de boi<span className="text-color">s</span> qui s'en-vo-la aus-si !
               </p>
               
             </div>
@@ -189,9 +189,9 @@ class Flip extends React.Component {
               <div className="page-img">
               <img className="img-book" src={img6}/></div>
               <div className="page-text">
-              <p className="text-book">Vite, les deux peti<span className="text-color">ts</span> cochon<span className="text-color">s</span> s'enfuire<span className="text-color">nt</span> et se réfugière<span className="text-color">nt</span> dan<span className="text-color">s</span> la maison de leur frère.</p>
-              <p className="text-book">Le lou<span className="text-color">p</span> s'approcha de la maison de brique<span className="text-color">s</span> et souffla, souffla, souffla encore.</p>
-              <p className="text-book"> Mai<span className="text-color">s</span> la maison ne bougea pa<span className="text-color">s</span>.
+              <p className="text-book">Vi-te, les deux pe-ti<span className="text-color">ts</span> co-chon<span className="text-color">s</span> s'en-fui-re<span className="text-color">nt</span> et se ré-fu-giè-re<span className="text-color">nt</span> dan<span className="text-color">s</span> la mai-son de leur frè-re.</p>
+              <p className="text-book">Le lou<span className="text-color">p</span> s'ap-pro-cha de la mai-son de bri-que<span className="text-color">s</span> et souf-fla, souf-fla, souf-fla en-co-re.</p>
+              <p className="text-book"> Mai<span className="text-color">s</span> la mai-son ne bou-gea pa<span className="text-color">s</span>.
               </p>
               
             </div>
@@ -210,8 +210,8 @@ class Flip extends React.Component {
               <div className="page-img">
               <img className="img-book" src={img7}/></div>
               <div className="page-text">
-              <p className="text-book">- Parole de lou<span className="text-color">p</span>, je vai<span className="text-color">s</span> manger ces troi<span className="text-color">s</span> cochon<span className="text-color">s</span> d'un seul cou<span className="text-color">p</span>! </p>
-              <p className="text-book">Je vai<span className="text-color">s</span> entrer par la cheminé<span className="text-color">e</span> pour les dévorer ! grogna-t-il en escaladan<span className="text-color">t</span> la maison...
+              <p className="text-book">- Pa-ro-le de lou<span className="text-color">p</span>, je vai<span className="text-color">s</span> man-ger ces troi<span className="text-color">s</span> co-chon<span className="text-color">s</span> d'un seul cou<span className="text-color">p</span>! </p>
+              <p className="text-book">Je vai<span className="text-color">s</span> ent-rer par la che-mi-né<span className="text-color">e</span> pour les dé-vo-rer ! gro-gna-t-il en es-ca-la-dan<span className="text-color">t</span> la mai-son...
               </p>
               
             </div>
@@ -230,8 +230,8 @@ class Flip extends React.Component {
               <div className="page-img">
               <img className="img-book" src={img8}/></div>
               <div className="page-text">
-              <p className="text-book">Et  plouf! Le lou<span className="text-color">p</span> tomba dans une marmite d'eau bouillante qui l'attendai<span className="text-color">t</span> sou<span className="text-color">s</span> la cheminée.
-              Pour fêter ça, les peti<span className="text-color">ts</span> cochon<span className="text-color">s</span> mangère<span className="text-color">nt</span> un délicieu<span className="text-color">x</span> ragoû<span className="text-color">t</span> de lou<span className="text-color">p</span>!
+              <p className="text-book">Et  plouf! Le lou<span className="text-color">p</span> tom-ba dans une mar-mi-te d'eau bouil-lan-te qui l'at-ten-dai<span className="text-color">t</span> sou<span className="text-color">s</span> la che-mi-née.
+              Pour fê-ter ça, les pe-ti<span className="text-color">ts</span> co-chon<span className="text-color">s</span> man-gè-re<span className="text-color">nt</span> un dé-li-ci-eu<span className="text-color">x</span> ra-goû<span className="text-color">t</span> de lou<span className="text-color">p</span>!
               </p>
               
             </div>
@@ -250,4 +250,4 @@ class Flip extends React.Component {
   }
 }
 
-export default Flip;
+export default SyllabiqueTroisCochons;

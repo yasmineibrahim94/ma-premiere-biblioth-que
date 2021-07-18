@@ -36,7 +36,7 @@ const Page = React.forwardRef((props, ref) => (
 ));
 
 // page with changes
-class Flip extends React.Component {
+class SyllabiqueSouris extends React.Component {
   constructor(props) {
     super(props);
 
@@ -55,11 +55,10 @@ class Flip extends React.Component {
       <div className="myRecipe_container">
         <Header />
 
-        <div className="buttons">
+<div className="buttons">
 <Link to="/une_souris_verte" type="button" className="button">Version classique</Link>
 <Link to="/une_souris_verte_syllabique" type="button" className="button">Version syllabique</Link>
 </div>
-
         <HTMLFlipBook
           width={500}
           height={700}
@@ -91,10 +90,10 @@ class Flip extends React.Component {
               <img className="img-book" src={img1}/></div>
               <div className="page-text">
               <p className="text-book">
-                Une souri<span className="text-color">s</span> verte</p>
-                <p className="text-book">Qui courai<span className="text-color">t</span> dan<span className="text-color">s</span> l'<span className="text-color">h</span>erbe</p>
-                <p className="text-book">Je l'attrape par la queu<span className="text-color">e</span></p>
-                <p className="text-book"> Je la montre à ces monsieu<span className="text-color">rs</span>
+                Une sou-ri<span className="text-color">s</span> ver-te</p>
+                <p className="text-book">Qui cou-rai<span className="text-color">t</span> dan<span className="text-color">s</span> l'<span className="text-color">h</span>er-be</p>
+                <p className="text-book">Je l'at-tra-pe par la queu<span className="text-color">e</span></p>
+                <p className="text-book"> Je la mon-tre à ces mon-sieu<span className="text-color">rs</span>
               </p>
             </div>
 
@@ -111,10 +110,10 @@ class Flip extends React.Component {
               <div className="page-img">
               <img className="img-book" src={img2}/></div>
               <div className="page-text">
-              <p className="text-book">Ces monsieu<span className="text-color">rs</span> me dise<span className="text-color">nt</span></p>
-              <p className="text-book">Trempez la dan<span className="text-color">s</span> l'<span className="text-color">h</span>uile</p>
-              <p className="text-book">Trempez la dan<span className="text-color">s</span> l'eau</p>
-              <p className="text-book">ça fera un escargo<span className="text-color">t</span> tou<span className="text-color">t</span> chau<span className="text-color">d</span>!
+              <p className="text-book">Ces mon-sieu<span className="text-color">rs</span> me di-se<span className="text-color">nt</span></p>
+              <p className="text-book">Trem-pez la dan<span className="text-color">s</span> l'<span className="text-color">h</span>ui-le</p>
+              <p className="text-book">Trem-pez la dan<span className="text-color">s</span> l'eau</p>
+              <p className="text-book">ça fe-ra un es-car-go<span className="text-color">t</span> tou<span className="text-color">t</span> chau<span className="text-color">d</span>!
              </p>
             </div>
 
@@ -131,8 +130,8 @@ class Flip extends React.Component {
               <div className="page-img">
               <img className="img-book" src={img3}/></div>
               <div className="page-text">
-              <p className="text-book">Je la met<span className="text-color">s</span> dan<span className="text-color">s</span> mon tiroir,</p>
-              <p className="text-book">Elle me di<span className="text-color">t</span> : "il fai<span className="text-color"></span> tro<span className="text-color">p</span> noir"</p>
+              <p className="text-book">Je la met<span className="text-color">s</span> dan<span className="text-color">s</span> mon ti-roir,</p>
+              <p className="text-book">Elle me di<span className="text-color">t</span> : "il fai<span className="text-color">t</span> tro<span className="text-color">p</span> noir"</p>
           
               
               
@@ -151,7 +150,7 @@ class Flip extends React.Component {
               <div className="page-img">
               <img className="img-book" src={img4}/></div>
               <div className="page-text">
-              <p className="text-book">Je la met<span className="text-color">s</span> dan<span className="text-color">s</span> mon chapeau,</p>
+              <p className="text-book">Je la met<span className="text-color">s</span> dan<span className="text-color">s</span> mon cha-peau,</p>
               <p className="text-book">Elle me di<span className="text-color">t</span> : "il fai<span className="text-color">t</span> tro<span className="text-color">p</span> chau<span className="text-color">d</span>"</p>
           
             </div>
@@ -169,8 +168,8 @@ class Flip extends React.Component {
               <div className="page-img">
               <img className="img-book" src={img5}/></div>
               <div className="page-text">
-              <p className="text-book">Je la met<span className="text-color">s</span> dan<span className="text-color">s</span> ma culotte,</p>
-              <p className="text-book">Elle me fai<span className="text-color">t</span> troi<span className="text-color">s</span> petite<span className="text-color">s</span> crotte<span className="text-color">s</span>
+              <p className="text-book">Je la met<span className="text-color">s</span> dan<span className="text-color">s</span> ma cu-lo-tte,</p>
+              <p className="text-book">Elle me fai<span className="text-color">t</span> troi<span className="text-color">s</span> pe-ti-te<span className="text-color">s</span> cro-tte<span className="text-color">s</span>
                
               </p>
             </div>
@@ -191,4 +190,4 @@ class Flip extends React.Component {
   }
 }
 
-export default Flip;
+export default SyllabiqueSouris;

@@ -38,7 +38,7 @@ const Page = React.forwardRef((props, ref) => (
 ));
 
 // page with changes
-class Flip extends React.Component {
+class SyllabiquePoule extends React.Component {
   constructor(props) {
     super(props);
 
@@ -90,7 +90,7 @@ class Flip extends React.Component {
               <div className="page-img">
               <img className="img-book" src={img1}/></div>
               <div className="page-text">
-              <p className="text-book">Il étai<span className="text-color">t</span> une foi<span className="text-color">s</span> une petite poule rousse qui cherchai<span className="text-color">t</span> quelque chose à manger. Un jour elle découvri<span className="text-color">t</span> d'appétissan<span className="text-color">ts</span> grain<span className="text-color">s</span> de blé et décida de les semer plutô<span className="text-color">t</span> que de les picorer.</p>
+              <p className="text-book">Il é-tai<span className="text-color">t</span> une foi<span className="text-color">s</span> une pe-ti-te pou-le rous-se qui cher-chai<span className="text-color">t</span> quel-que cho-se à man-ger. Un jour elle dé-cou-vri<span className="text-color">t</span> d'ap-pé-tis-san<span className="text-color">ts</span> grain<span className="text-color">s</span> de blé et dé-ci-da de les se-mer plu-tô<span className="text-color">t</span> que de les pi-co-rer.</p>
             </div>
 
 </div>
@@ -107,8 +107,8 @@ class Flip extends React.Component {
               <div className="page-img">
               <img className="img-book" src={img2}/></div>
               <div className="page-text">
-              <p className="text-book">- Cochon, mon ami cochon ! Peu<span className="text-color">x</span>-tu m'aider à semer ces grain<span className="text-color">s</span> de blé ? lui demanda la poule</p>
-              <p className="text-book">- Je ne peu<span className="text-color">x</span> pas ! Je dois aller prendre mon bain de bou<span className="text-color">e</span></p>
+              <p className="text-book">- Co-chon, mon a-mi co-chon ! Peu<span className="text-color">x</span>-tu m'ai-der à se-mer ces grain<span className="text-color">s</span> de blé ? lui de-man-da la pou-le</p>
+              <p className="text-book">- Je ne peu<span className="text-color">x</span> pas ! Je dois al-ler pren-dre mon bain de bou<span className="text-color">e</span></p>
             </div>
 
 </div>
@@ -124,7 +124,7 @@ class Flip extends React.Component {
               <div className="page-img">
               <img className="img-book" src={img3}/></div>
               <div className="page-text">
-              <p className="text-book">Alor<span className="text-color">s</span> la petite poule rousse sema ses grain<span className="text-color">s</span> de blé toute seule et de beau<span className="text-color">x</span> épi<span className="text-color">s</span> sortire<span className="text-color">nt</span> de terre.</p>
+              <p className="text-book">A-lor<span className="text-color">s</span> la pe-ti-te pou-le rous-se se-ma ses grain<span className="text-color">s</span> de blé tou-te seu-le et de beau<span className="text-color">x</span> é-pi<span className="text-color">s</span> sor-ti-re<span className="text-color">nt</span> de ter-re.</p>
             </div>
 
 </div>
@@ -140,8 +140,8 @@ class Flip extends React.Component {
               <div className="page-img">
               <img className="img-book" src={img4}/></div>
               <div className="page-text">
-              <p className="text-book">- Canar<span className="text-color">d</span>, mon ami canar<span className="text-color">d</span>! Peu<span className="text-color">x</span>-tu m'aider à récolter ces épi<span className="text-color">s</span> de blé ? lui demanda la petite poule rousse</p>
-              <p className="text-book">- Je ne peu<span className="text-color">x</span> pa<span className="text-color">s</span>, je pren<span className="text-color">ds</span> mon bain, lui répondi<span className="text-color">t</span>-il</p>             
+              <p className="text-book">- Ca-nar<span className="text-color">d</span>, mon a-mi ca-nar<span className="text-color">d</span>! Peu<span className="text-color">x</span>-tu m'ai-der à ré-col-ter ces é-pi<span className="text-color">s</span> de blé ? lui de-man-da la pe-ti-te pou-le rous-se</p>
+              <p className="text-book">- Je ne peu<span className="text-color">x</span> pa<span className="text-color">s</span>, je pren<span className="text-color">ds</span> mon bain, lui ré-pon-di<span className="text-color">t</span>-il</p>             
             </div>
 
 </div>
@@ -157,7 +157,7 @@ class Flip extends React.Component {
               <div className="page-img">
               <img className="img-book" src={img5}/></div>
               <div className="page-text">
-              <p className="text-book">Alor<span className="text-color">s</span> la petite poule rousse récolta ses épi<span className="text-color">s</span> toute seule, puis elle les mi<span className="text-color">t</span> dan<span className="text-color">s</span> un gran<span className="text-color">d</span> sac pour aller les moudre au moulin mai<span className="text-color">s</span> que le sac étai<span className="text-color">t</span> lour<span className="text-color">d</span> et la poule étai<span className="text-color">t</span> petite !</p>
+              <p className="text-book">A-lor<span className="text-color">s</span> la pe-ti-te pou-le rous-se ré-col-ta ses é-pi<span className="text-color">s</span> tou-te seu-le, puis elle les mi<span className="text-color">t</span> dan<span className="text-color">s</span> un gran<span className="text-color">d</span> sac pour al-ler les mou-dre au mou-lin mai<span className="text-color">s</span> que le sac étai<span className="text-color">t</span> lour<span className="text-color">d</span> et la pou-le é-tai<span className="text-color">t</span> pe-ti-te !</p>
             </div>
 
 </div>
@@ -173,9 +173,9 @@ class Flip extends React.Component {
               <div className="page-img">
               <img className="img-book" src={img6}/></div>
               <div className="page-text">
-              <p className="text-book">- Cha<span className="text-color">t</span>, mon ami cha<span className="text-color">t</span> ! Peu<span className="text-color">x</span>-tu m'aider à porter ce sac de blé ? lui demanda la petite poule rousse.</p>
+              <p className="text-book">- Cha<span className="text-color">t</span>, mon a-mi cha<span className="text-color">t</span> ! Peu<span className="text-color">x</span>-tu m'ai-der à por-ter ce sac de blé ? lui de-man-da la pe-ti-te pou-le rous-se.</p>
                 <p className="text-book">
-              - Je ne peu<span className="text-color">x</span> pas, je n'ai pas fini ma sieste, lui répondi<span className="text-color">t</span>-il.</p>
+              - Je ne peu<span className="text-color">x</span> pas, je n'ai pas fi-ni ma si-es-te, lui ré-pon-di<span className="text-color">t</span>-il.</p>
             </div>
 
 </div>
@@ -191,7 +191,7 @@ class Flip extends React.Component {
               <div className="page-img">
               <img className="img-book" src={img7}/></div>
               <div className="page-text">
-              <p className="text-book">Alor<span className="text-color">s</span> la petite poule rousse porta ses lour<span className="text-color">ds</span> sac<span className="text-color">s</span> de blé toute seule. Elle sorti<span className="text-color">t</span> les épi<span className="text-color">s</span> du sac toute seule. Elle sépara les grain<span className="text-color">s</span> des épi<span className="text-color">s</span> toute seule. Elle jeta les grain<span className="text-color">s</span> au moulin toute seule. Elle ramassa sa farine et la mi<span className="text-color">s</span> en sac toute seule.</p>
+              <p className="text-book">A-lor<span className="text-color">s</span> la pe-ti-te pou-le rous-se por-ta ses lour<span className="text-color">ds</span> sac<span className="text-color">s</span> de blé tou-te seu-le. Elle sor-ti<span className="text-color">t</span> les é-pi<span className="text-color">s</span> du sac tou-te seu-le. Elle sé-pa-ra les grain<span className="text-color">s</span> des é-pi<span className="text-color">s</span> tou-te seu-le. Elle je-ta les grain<span className="text-color">s</span> au mou-lin tou-te seu-le. Elle ra-mas-sa sa fa-ri-ne et la mi<span className="text-color">s</span> en sac tou-te seu-le.</p>
             </div>
 
 </div>
@@ -207,9 +207,9 @@ class Flip extends React.Component {
               <div className="page-img">
               <img className="img-book" src={img8}/></div>
               <div className="page-text">
-              <p className="text-book">Pui<span className="text-color">s</span> arrivé<span className="text-color">e</span> chez elle, elle pri<span className="text-color">t</span> de l'eau, du sel, de la levure et sa farine pour préparer sa pâte à pain.</p>
-                <p className="text-book">Et de lon<span className="text-color">gs</span> momen<span className="text-color">ts</span> duran<span className="text-color">t</span>, elle pétri<span className="text-color">t</span> la pâte toute seule. </p>
-                <p className="text-book">Ni le cochon, ni le canar<span className="text-color">d</span>, ni le cha<span className="text-color">t</span> ne vinre<span className="text-color">nt</span> l'aider.</p>
+              <p className="text-book">Pui<span className="text-color">s</span> ar-ri-vé<span className="text-color">e</span> chez elle, elle pri<span className="text-color">t</span> de l'eau, du sel, de la le-vu-re et sa fa-ri-ne pour pré-pa-rer sa pâ-te à pain.</p>
+                <p className="text-book">Et de lon<span className="text-color">gs</span> mo-men<span className="text-color">ts</span> du-ran<span className="text-color">t</span>, elle pé-tri<span className="text-color">t</span> la pâ-te tou-te seu-le. </p>
+                <p className="text-book">Ni le co-chon, ni le ca-nar<span className="text-color">d</span>, ni le cha<span className="text-color">t</span> ne vin-re<span className="text-color">nt</span> l'ai-der.</p>
             </div>
 
 </div>
@@ -225,9 +225,9 @@ class Flip extends React.Component {
               <div className="page-img">
               <img className="img-book" src={img9}/></div>
               <div className="page-text">
-              <p className="text-book">Enfin le pain fu<span className="text-color">t</span> prêt et la poule le sorti<span className="text-color">t</span> du four. Quelle délicieuse odeur !</p>
-                <p className="text-book">Le cochon, le canar<span className="text-color">d</span> et le cha<span className="text-color">t</span> arrivère<span className="text-color">nt</span> prestemen<span className="text-color">t</span> : </p>
-              <p className="text-book">Poule, notre ami <span className="text-color">e</span>poule ! Pouvon<span className="text-color">s</span>-nou<span className="text-color">s</span> t'aider à manger ce bon pain ?</p>
+              <p className="text-book">En-fin le pain fu<span className="text-color">t</span> prêt et la pou-le le sor-ti<span className="text-color">t</span> du four. Quelle dé-li-ci-eu-se o-deur !</p>
+                <p className="text-book">Le co-chon, le ca-nar<span className="text-color">d</span> et le cha<span className="text-color">t</span> ar-ri-vè-re<span className="text-color">nt</span> pres-te-men<span className="text-color">t</span> : </p>
+              <p className="text-book">Pou-le, no-tre a-mi <span className="text-color">e</span>pou-le ! Pou-von<span className="text-color">s</span>-nou<span className="text-color">s</span> t'ai-der à man-ger ce bon pain ?</p>
             </div>
 
 </div>
@@ -244,10 +244,10 @@ class Flip extends React.Component {
               <div className="page-img">
               <img className="img-book" src={img10}/></div>
               <div className="page-text">
-              <p className="text-book">La petite poule rousse réfléchi<span className="text-color">t</span> longuement pui<span className="text-color">s</span> di<span className="text-color">t</span> :</p>
-               <p className="text-book">- J'ai semé le blé toute seule. J'ai récolté le blé toute seule. Jai porté les sac<span className="text-color">s</span> toute seule. J'ai pétri<span className="text-color">s</span> la pâte toute seule. </p>
+              <p className="text-book">La pe-ti-te pou-le rous-se ré-flé-chi<span className="text-color">t</span> lon-gue-ment pui<span className="text-color">s</span> di<span className="text-color">t</span> :</p>
+               <p className="text-book">- J'ai se-mé le blé tou-te seu-le. J'ai ré-col-té le blé tou-te seu-le. Jai por-té les sac<span className="text-color">s</span> tou-te seu-le. J'ai pé-tri<span className="text-color">s</span> la pâ-te tou-te seu-le. </p>
                <p className="text-book">
-              Alor<span className="text-color">s</span> je vai<span className="text-color">s</span> manger ce bon pain TOUTE SEULE!
+              A-lor<span className="text-color">s</span> je vai<span className="text-color">s</span> man-ger ce bon pain TOU-TE SEU-LE!
               </p>
             </div>
 
@@ -266,5 +266,5 @@ class Flip extends React.Component {
   }
 }
 
-export default Flip;
+export default SyllabiquePoule;
 
