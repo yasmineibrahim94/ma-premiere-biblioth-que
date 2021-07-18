@@ -19,7 +19,7 @@ import img8 from '../../../assets/fonts/TroisCochons/img8.jpg';
 
 // basic cover
 const PageCover = React.forwardRef((props, ref) => (
-  <div className="page page-cover-book1" ref={ref} data-density="hard">
+  <div className="page page-cover-book2" ref={ref} data-density="hard">
     <div className="page-content">
       <h2>{props.children}</h2>
     </div>
@@ -54,7 +54,7 @@ class SyllabiqueTroisCochons extends React.Component {
     const data = this.state;
     console.log(data);
     return (
-      <div className="myRecipe_container">
+      <div>
         <Header />
 
         <div className="buttons">
@@ -70,7 +70,6 @@ class SyllabiqueTroisCochons extends React.Component {
           minHeight={400}
           maxHeight={1533}
           drawShadow
-          disableFlipByClick // désactivation au click sur la page
           maxShadowOpacity={0.5}
           showCover
           mobileScrollSupport

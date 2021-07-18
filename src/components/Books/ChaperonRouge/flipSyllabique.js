@@ -20,7 +20,7 @@ import img10 from '../../../assets/fonts/ChaperonRouge/img10.jpg';
 
 // basic cover
 const PageCover = React.forwardRef((props, ref) => (
-  <div className="page page-cover-book4" ref={ref} data-density="hard">
+  <div className="page page-cover-book7" ref={ref} data-density="hard">
     <div className="page-content">
       <h2>{props.children}</h2>
     </div>
@@ -51,7 +51,7 @@ class SyllabiqueChaperon extends React.Component {
   render() {  const data = this.state;
     console.log(data);
     return (
-      <div className="myRecipe_container">
+      <div>
       <div className="stpageflip">
         <Header />
 
@@ -68,7 +68,6 @@ class SyllabiqueChaperon extends React.Component {
           width={500}
           height={700}
           drawShadow
-          disableFlipByClick // désactivation au click sur la page
           maxShadowOpacity={0.5}
           showCover
           mobileScrollSupport

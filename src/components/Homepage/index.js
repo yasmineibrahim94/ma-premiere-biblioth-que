@@ -9,7 +9,7 @@ import './style.scss';
 import '../Books/style.scss'
 const Homepage = () => {
   return(
-    <div className="myRecipe_container">
+    <div>
      <Header />
      <div className="librairy">
     <ShelfOne /> 

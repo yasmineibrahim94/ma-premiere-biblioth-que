@@ -3,7 +3,7 @@
   width: 60%;
   margin-left: 20%;
   border: solid 15px #3A2C2B;
-  //margin-bottom: 5%;
+
 }
 // SHELF LOGIN
 .ShelfSignIn {
@@ -18,7 +18,7 @@
 
 .chaperon_rouge{
   width: 200%;
-  background-image: url(../../assets/fonts/book4.jpg);
+  background-image: url(../../assets/fonts/book7.jpg);
   color: white;
   text-shadow: 0 0 10px #FF0000, 0 0 10px #0000FF;
 
@@ -26,9 +26,9 @@
 
 .trois_cochons{
   width: 200%;
-  background-image: url(../../assets/fonts/book1.jpg);
+  background-image: url(../../assets/fonts/book2.jpg);
   color: #BEF6F3;
-  text-shadow: 0 0 10px aquamarine, 0 0 10px #0000FF;
+text-shadow: 0 0 10px #FF0000, 0 0 15px #0000FF;
 
 
 }
@@ -53,19 +53,11 @@
 
 }
 
-.dishBook{
-  width: 170%;
-  background-image: url(../../assets/fonts/book1.jpg);
-  text-shadow: 0 0 10px aquamarine, 0 0 10px #0000FF;
-color: white;
-}
-
 .chevreau{
   width: 160%;
   background-image: url(../../assets/fonts/book3.jpg);
-  color: #3A55A0;
-  text-shadow: 0 0 10px wheat, 0 0 10px burlywood;
-
+  color: white;
+  text-shadow: 0 0 10px #FF0000, 0 0 15px #0000FF;
 }
 
 // SHELF MY ACCOUNT
@@ -83,23 +75,23 @@ color: white;
 .boucle_dor{
   width: 130%;
   background-image: url(../../assets/fonts/book1.jpg);
-  color: wheat;
-  text-shadow: 0 0 10px aquamarine, 0 0 10px #0000FF;
+  color: white;
+  text-shadow: 0 0 10px #FF0000, 0 0 15px #0000FF;
 
 }
 
 .hansel-gretel{
   width: 220%;
-  background-image: url(../../assets/fonts/book2.jpg);
-  text-shadow: 0 0 10px aquamarine, 0 0 10px #0000FF;
-color: #624C86;
+  background-image: url(../../assets/fonts/book5.jpg);
+  color: yellow;
+text-shadow: 0 0 10px #FF0000, 0 0 15px #0000FF;
 }
 
 .souris_verte {
   width: 110%;
-  background-image: url(../../assets/fonts/book3.jpg);
-  color: #3A2C2B;
-  text-shadow: 0 0 10px wheat, 0 0 10px burlywood;
+  background-image: url(../../assets/fonts/book6.jpg);
+  color: white;
+  text-shadow: 0 0 10px #FF0000, 0 0 15px #0000FF;
 
 }
 
@@ -124,7 +116,7 @@ color: #624C86;
 
 .poule-rousse:hover, .searchButton:hover, .dishBook:hover, .chevreau:hover, 
 .chaperon_rouge:hover, .trois_cochons:hover, .boucle_dor:hover, 
-.souris_verte:hover, .vilain-canard:hover {
+.souris_verte:hover, .hansel-gretel:hover {
   color: #D4923F;
 }
 

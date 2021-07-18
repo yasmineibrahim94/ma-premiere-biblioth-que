@@ -51,7 +51,7 @@ class Flip extends React.Component {
   render() {  const data = this.state;
     console.log(data);
     return (
-      <div className="myRecipe_container">
+      <div>
       <div className="stpageflip">
         <Header />
 
@@ -68,7 +68,6 @@ class Flip extends React.Component {
           width={500}
           height={700}
           drawShadow
-          disableFlipByClick // désactivation au click sur la page
           maxShadowOpacity={0.5}
           showCover
           mobileScrollSupport

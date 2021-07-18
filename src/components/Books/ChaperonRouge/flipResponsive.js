@@ -19,7 +19,7 @@ import Footer from '../../Footer';
 
 // basic cover
 const PageCover = React.forwardRef((props, ref) => (
-  <div className="page page-cover-book4" ref={ref} data-density="hard">
+  <div className="page page-cover-book7" ref={ref} data-density="hard">
     <div className="page-content">
       <h2>{props.children}</h2>
     </div>
@@ -50,18 +50,17 @@ class FlipResponsive extends React.Component {
   render() {  const data = this.state;
     console.log(data);
     return (
-      <div className="myRecipe_container">
+      <div>
       <div className="stpageflip">
         <Header />
         <HTMLFlipBook
-          //minWidth={315}
-          //maxWidth={1000}
-          //minHeight={400}
-          //maxHeight={1533}
+          minWidth={315}
+          maxWidth={1000}
+          minHeight={400}
+          maxHeight={1533}
           width={315}
           height={400}
           drawShadow
-          disableFlipByClick // désactivation au click sur la page
           maxShadowOpacity={0.5}
           showCover
           mobileScrollSupport

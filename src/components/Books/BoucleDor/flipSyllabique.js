@@ -50,7 +50,7 @@ class SyllabiqueBoucle extends React.Component {
     const data = this.state;
     console.log(data);
     return (
-      <div className="myRecipe_container">
+      <div>
       <div className="stpageflip">
         <Header />
 
@@ -67,7 +67,6 @@ class SyllabiqueBoucle extends React.Component {
           width={500}
           height={750}
           drawShadow
-          disableFlipByClick // désactivation au click sur la page
           maxShadowOpacity={0.5}
           showCover
           mobileScrollSupport

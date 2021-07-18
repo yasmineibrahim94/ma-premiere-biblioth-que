@@ -50,7 +50,7 @@ class FlipResponsive extends React.Component {
   render() {  const data = this.state;
     console.log(data);
     return (
-      <div className="myRecipe_container">
+      <div>
       <div className="stpageflip">
         <Header />
         <HTMLFlipBook
@@ -61,7 +61,6 @@ class FlipResponsive extends React.Component {
           width={315}
           height={400}
           drawShadow
-          disableFlipByClick // désactivation au click sur la page
           maxShadowOpacity={0.5}
           showCover
           mobileScrollSupport

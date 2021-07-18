@@ -14,7 +14,7 @@ import img4 from '../../../assets/fonts/HanselGretel/img4.jpg';
 import img5 from '../../../assets/fonts/HanselGretel/img5.jpg';
 // basic cover
 const PageCover = React.forwardRef((props, ref) => (
-  <div className="page page-cover-book2" ref={ref} data-density="hard">
+  <div className="page page-cover-book5" ref={ref} data-density="hard">
     <div className="page-content">
       <h2>{props.children}</h2>
     </div>
@@ -49,7 +49,7 @@ class Flip extends React.Component {
     const data = this.state;
     console.log(data);
     return (
-      <div className="myRecipe_container">
+      <div>
         <Header />
 
         <div className="buttons">
@@ -65,7 +65,6 @@ class Flip extends React.Component {
           minHeight={400}
           maxHeight={1533}
           drawShadow
-          disableFlipByClick // désactivation au click sur la page
           maxShadowOpacity={0.5}
           showCover
           mobileScrollSupport
