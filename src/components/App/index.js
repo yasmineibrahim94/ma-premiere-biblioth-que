@@ -19,6 +19,7 @@ import SyllabiquePoule from "../Books/PouleRousse/flipSyllabique";
 import SyllabiqueHansel from "../Books/HanselGretel/flipSyllabique";
 import SyllabiqueChevreaux from "../Books/Chevreaux/flipSyllabique";
 import SyllabiqueChaperon from "../Books/ChaperonRouge/flipSyllabique";
+import SyllabiqueBoucle from "../Books/BoucleDor/flipSyllabique";
 
 
 
@@ -32,6 +33,7 @@ function App() {
         <Route path="/les_3_petits_cochons" component={TroisCochons} />
         <Route path="/les_3_petits_cochons_syllabique" component={SyllabiqueTroisCochons} />
         <Route path="/boucle_d_or" component={BoucleDor} />
+        <Route path="/boucle_d_or_syllabique" component={SyllabiqueBoucle} />
         <Route path="/une_souris_verte" component={SourisVerte} />
         <Route path="/une_souris_verte_syllabique" component={SyllabiqueSouris} />
         <Route path="/les_7_petits_chevreaux" component={Chevreaux} />

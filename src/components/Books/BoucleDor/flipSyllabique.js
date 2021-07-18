@@ -35,7 +35,7 @@ const Page = React.forwardRef((props, ref) => (
  ));
 
 // page with changes
-class Flip extends React.Component {
+class SyllabiqueBoucle extends React.Component {
   constructor(props) {
     super(props);
 
@@ -89,8 +89,8 @@ class Flip extends React.Component {
               <div className="page-img">
               <img className="img-book" src={img1}/></div>
               <div className="page-text">
-              <p className="text-book">Il étai<span className="text-color">t</span> une foi<span className="text-color">s</span> une maman ours, un papa ours et leur peti<span className="text-color">t</span> ours qui habitai<span className="text-color">ent</span> une belle maison dan<span className="text-color">s</span> la forêt.</p>
-              <p className="text-book">Un jour, maman ours prépara une soupe tro<span className="text-color">p</span> chaude alor<span className="text-color">s</span> la petite famille parti<span className="text-color">t</span> se promener.</p>
+              <p className="text-book">Il é-tai<span className="text-color">t</span> une foi<span className="text-color">s</span> une ma-man ours, un pa-pa ours et leur pe-ti<span className="text-color">t</span> ours qui ha-bi-tai<span className="text-color">ent</span> une bel-le mai-son dan<span className="text-color">s</span> la fo-rêt.</p>
+              <p className="text-book">Un jour, ma-man ours pré-pa-ra une sou-pe tro<span className="text-color">p</span> chau-de a-lor<span className="text-color">s</span> la pe-ti-te fa-mil-le par-ti<span className="text-color">t</span> se pro-me-ner.</p>
             </div>
 
 </div>
@@ -107,9 +107,9 @@ class Flip extends React.Component {
               <div className="page-img">
               <img className="img-book" src={img2}/></div>
               <div className="page-text">
-              <p className="text-book">Boucle d'or qui passai<span className="text-color">t</span> par là, décida d'entrer pour se reposer un peu.</p>
-              <p className="text-book">Elle vi<span className="text-color">t</span> troi<span className="text-color">s</span> chaise<span className="text-color">s</span>.</p>
-              <p className="text-book">La première étai<span className="text-color">t</span> tro<span className="text-color">p</span> grande, la deuxième étai<span className="text-color">t</span> un peu cassé<span className="text-color">e</span> mai<span className="text-color">s</span> la troisième plu<span className="text-color">s</span> petite étai<span className="text-color">t</span> parfaite!
+              <p className="text-book">Bou-cle d'or qui pas-sai<span className="text-color">t</span> par là, dé-ci-da d'en-trer pour se re-po-ser un peu.</p>
+              <p className="text-book">Elle vi<span className="text-color">t</span> troi<span className="text-color">s</span> chai-se<span className="text-color">s</span>.</p>
+              <p className="text-book">La pre-mi-ère é-tai<span className="text-color">t</span> tro<span className="text-color">p</span> gran-de, la deu-xi-ème é-tai<span className="text-color">t</span> un peu cas-sé<span className="text-color">e</span> mai<span className="text-color">s</span> la troi-si-ème plu<span className="text-color">s</span> pe-ti-te é-tai<span className="text-color">t</span> par-fai-te!
               
               </p>
             </div>
@@ -127,8 +127,8 @@ class Flip extends React.Component {
               <div className="page-img">
               <img className="img-book" src={img3}/></div>
               <div className="page-text">
-              <p className="text-book">Sur la table, elle vi<span className="text-color">t</span> troi<span className="text-color">s</span> bol<span className="text-color">s</span></p>
-              <p className="text-book">Le gran<span className="text-color">d</span> bol étai<span className="text-color">t</span> tro<span className="text-color">p</span> chau<span className="text-color">d</span>, le bol moyen étai<span className="text-color">t</span> tro<span className="text-color">p</span> salé mai<span className="text-color">s</span> la soupe du peti<span className="text-color">t</span> bol étai<span className="text-color">t</span> parfaite et Boucle d'or la bu<span className="text-color">t</span> entièremen<span className="text-color">t</span>.
+              <p className="text-book">Sur la ta-ble, elle vi<span className="text-color">t</span> troi<span className="text-color">s</span> bol<span className="text-color">s</span></p>
+              <p className="text-book">Le gran<span className="text-color">d</span> bol é-tai<span className="text-color">t</span> tro<span className="text-color">p</span> chau<span className="text-color">d</span>, le bol moyen é-tai<span className="text-color">t</span> tro<span className="text-color">p</span> sa-lé mai<span className="text-color">s</span> la sou-pe du pe-ti<span className="text-color">t</span> bol é-tai<span className="text-color">t</span> par-fai-te et Bou-cle d'or la bu<span className="text-color">t</span> en-tiè-re-men<span className="text-color">t</span>.
              </p>
             </div>
 
@@ -145,8 +145,8 @@ class Flip extends React.Component {
               <div className="page-img">
               <img className="img-book" src={img4}/></div>
               <div className="page-text">
-              <p className="text-book">Pui<span className="text-color">s</span> fatigué<span className="text-color">e</span>, elle alla dans la chambre.</p>
-              <p className="text-book">Elle se coucha sur le gran<span className="text-color">d</span> li<span className="text-color">t</span> mai<span className="text-color">s</span> il étai<span className="text-color">t</span> tro<span className="text-color">p</span> dur, le li<span className="text-color">t</span> moyen étai<span className="text-color">t</span> tro<span className="text-color">p</span> mou mai<span className="text-color">s</span> le peti<span className="text-color">t</span>, lui, étai<span className="text-color">t</span> parfai<span className="text-color">t</span>! Et elle s'endormi<span className="text-color">t</span>.
+              <p className="text-book">Pui<span className="text-color">s</span> fa-ti-gué<span className="text-color">e</span>, elle al-la dans la cham-bre.</p>
+              <p className="text-book">Elle se cou-cha sur le gran<span className="text-color">d</span> li<span className="text-color">t</span> mai<span className="text-color">s</span> il é-tai<span className="text-color">t</span> tro<span className="text-color">p</span> dur, le li<span className="text-color">t</span> moyen é-tai<span className="text-color">t</span> tro<span className="text-color">p</span> mou mai<span className="text-color">s</span> le pe-ti<span className="text-color">t</span>, lui, é-tai<span className="text-color">t</span> par-fai<span className="text-color">t</span>! Et elle s'en-dor-mi<span className="text-color">t</span>.
              </p>
               
             </div>
@@ -165,10 +165,10 @@ class Flip extends React.Component {
               <img className="img-book" src={img5}/></div>
               <div className="page-text">
               <p className="text-book">
-              Quan<span className="text-color">d</span> les troi<span className="text-color">s</span> ours revinre<span className="text-color">nt</span> dan<span className="text-color">s</span> leur maison, il<span className="text-color">s</span> fure<span className="text-color">nt</span> trè<span className="text-color">s</span> étonné<span className="text-color">s</span>. </p>
-              <p className="text-book">Quelqu'un s'étai<span className="text-color">t</span> assi<span className="text-color">s</span> sur la chaise de Peti<span className="text-color">t</span> Ours!</p>
-              <p className="text-book">Quelqu'un avai<span className="text-color">t</span> mangé la soupe de Peti<span className="text-color">t</span> Ours !</p>
-              <p className="text-book">Quelqu'un s'est couché dans le li<span className="text-color">t</span> de Peti<span className="text-color">t</span> Ours !
+              Quan<span className="text-color">d</span> les troi<span className="text-color">s</span> ours re-vin-re<span className="text-color">nt</span> dan<span className="text-color">s</span> leur mai-son, il<span className="text-color">s</span> fu-re<span className="text-color">nt</span> trè<span className="text-color">s</span> é-ton-né<span className="text-color">s</span>. </p>
+              <p className="text-book">Quel-qu'un s'é-tai<span className="text-color">t</span> as-si<span className="text-color">s</span> sur la chai-se de Pe-ti<span className="text-color">t</span> Ours!</p>
+              <p className="text-book">Quel-qu'un a-vai<span className="text-color">t</span> man-gé la sou-pe de Pe-ti<span className="text-color">t</span> Ours !</p>
+              <p className="text-book">Quel-qu'un s'est cou-ché dans le li<span className="text-color">t</span> de Pe-ti<span className="text-color">t</span> Ours !
               </p>
             </div>
 
@@ -186,9 +186,9 @@ class Flip extends React.Component {
               <img className="img-book" src={img6}/></div>
               <div className="page-text">
               <p className="text-book">
-               En voyan<span className="text-color">t</span> les troi<span className="text-color">s</span> ours, Boucle d'or eu<span className="text-color">t</span> trè<span className="text-color">s</span> peur !</p>
+               En voyan<span className="text-color">t</span> les troi<span className="text-color">s</span> ours, Bou-cle d'or eu<span className="text-color">t</span> trè<span className="text-color">s</span> peur !</p>
                <p className="text-book">
- Elle sorti<span className="text-color">t</span> de la maison en couran<span className="text-color">t</span> et s'enfui<span className="text-color">t</span> dan<span className="text-color">s</span> la forêt.
+ Elle sor-ti<span className="text-color">t</span> de la mai-son en cou-ran<span className="text-color">t</span> et s'en-fui<span className="text-color">t</span> dan<span className="text-color">s</span> la fo-rêt.
               
               </p>
             </div>
@@ -209,4 +209,4 @@ class Flip extends React.Component {
   }
 }
 
-export default Flip;
+export default SyllabiqueBoucle;
