@@ -47,9 +47,11 @@ height: 100vh;}
     align-items: stretch;
 
     .page-header {
-      height: 15px;
+      height: 25px;
       padding: 1%;
-      text-transform: uppercase;
+      //text-transform: uppercase;
+      font-family: 'Sacramento', cursive;
+      font-size: 1.5rem;
       text-align: center;
     }
 
@@ -206,12 +208,12 @@ font-size: 4rem;
 
 
 
-@media screen and (min-width: 821px) {
+@media screen and (min-width: 766px) {
   .ListByFlipResponsiv {
    display: none;
   }
 }
-@media screen and (max-width: 822px) {
+@media screen and (max-width: 767px) {
   .ListByFlip{
     display: none;
   }
