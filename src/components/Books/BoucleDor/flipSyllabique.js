@@ -56,7 +56,7 @@ class SyllabiqueBoucle extends React.Component {
 
         <div className="buttons">
 <Link to="/boucle_d_or" type="button" className="button">Version classique</Link>
-<Link to="/boucle_d_or_syllabique" type="button" className="button">Version syllabique</Link>
+<Link to="/boucle_d_or_syllabique" type="button" className="button-active">Version syllabique</Link>
 </div>
 
         <HTMLFlipBook

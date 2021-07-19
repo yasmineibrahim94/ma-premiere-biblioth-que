@@ -57,7 +57,7 @@ class SyllabiqueChaperon extends React.Component {
 
         <div className="buttons">
 <Link to="/le_petit_chaperon_rouge" type="button" className="button">Version classique</Link>
-<Link to="/le_petit_chaperon_rouge_syllabique" type="button" className="button">Version syllabique</Link>
+<Link to="/le_petit_chaperon_rouge_syllabique" type="button" className="button-active">Version syllabique</Link>
 </div>
 
         <HTMLFlipBook

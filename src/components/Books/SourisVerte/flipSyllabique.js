@@ -57,7 +57,7 @@ class SyllabiqueSouris extends React.Component {
 
 <div className="buttons">
 <Link to="/une_souris_verte" type="button" className="button">Version classique</Link>
-<Link to="/une_souris_verte_syllabique" type="button" className="button">Version syllabique</Link>
+<Link to="/une_souris_verte_syllabique" type="button" className="button-active">Version syllabique</Link>
 </div>
         <HTMLFlipBook
           width={500}

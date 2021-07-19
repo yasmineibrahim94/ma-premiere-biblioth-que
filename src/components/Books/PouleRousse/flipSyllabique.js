@@ -57,7 +57,7 @@ class SyllabiquePoule extends React.Component {
 
         <div className="buttons">
 <Link to="/la_petite_poule_rousse" type="button" className="button">Version classique</Link>
-<Link to="/la_petite_poule_rousse_syllabique" type="button" className="button">Version syllabique</Link>
+<Link to="/la_petite_poule_rousse_syllabique" type="button" className="button-active">Version syllabique</Link>
 </div>
 
         <HTMLFlipBook

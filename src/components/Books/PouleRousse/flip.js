@@ -56,7 +56,7 @@ class Flip extends React.Component {
         <Header />
 
         <div className="buttons">
-<Link to="/la_petite_poule_rousse" type="button" className="button">Version classique</Link>
+<Link to="/la_petite_poule_rousse" type="button" className="button-active">Version classique</Link>
 <Link to="/la_petite_poule_rousse_syllabique" type="button" className="button">Version syllabique</Link>
 </div>
 

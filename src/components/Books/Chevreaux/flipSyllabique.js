@@ -57,7 +57,7 @@ class SyllabiqueChevreaux extends React.Component {
 
         <div className="buttons">
 <Link to="/les_7_petits_chevreaux" type="button" className="button">Version classique</Link>
-<Link to="/les_7_petits_chevreaux_syllabique" type="button" className="button">Version syllabique</Link>
+<Link to="/les_7_petits_chevreaux_syllabique" type="button" className="button-active">Version syllabique</Link>
 </div>
 
         <HTMLFlipBook

@@ -59,7 +59,7 @@ class SyllabiqueTroisCochons extends React.Component {
 
         <div className="buttons">
 <Link to="/les_3_petits_cochons" type="button" className="button">Version classique</Link>
-<Link to="/les_3_petits_cochons_syllabique" type="button" className="button">Version syllabique</Link>
+<Link to="/les_3_petits_cochons_syllabique" type="button" className="button-active">Version syllabique</Link>
 </div>
 
         <HTMLFlipBook
