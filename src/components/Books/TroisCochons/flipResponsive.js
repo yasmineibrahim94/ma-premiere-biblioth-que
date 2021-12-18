@@ -83,7 +83,7 @@ class FlipResponsive extends React.Component {
               <div className="page-img">
               <img className="img-book-responsive" src={img1}/></div>
               <div className="page-text">
-              <p className="text-book-responsive">Il étai<span className="text-color"></span> une foi<span className="text-color">s</span> troi<span className="text-color">s</span> peti<span className="text-color">ts</span> cochon<span className="text-color">s</span> tou<span className="text-color">t</span> rose<span className="text-color">s</span> et tou<span className="text-color">t</span> ron<span className="text-color">ds.</span></p>
+              <p className="text-book-responsive">Il étai<span className="text-color">t</span> une foi<span className="text-color">s</span> troi<span className="text-color">s</span> peti<span className="text-color">ts</span> cochon<span className="text-color">s</span> tou<span className="text-color">t</span> rose<span className="text-color">s</span> et tou<span className="text-color">t</span> ron<span className="text-color">ds.</span></p>
               <p className="text-book-responsive">Le tem<span className="text-color">ps</span> étai<span className="text-color">t</span> venu pour eu<span className="text-color">x</span> de quitter papa et maman et de se construire chacun une belle maison.</p>
             </div>
 

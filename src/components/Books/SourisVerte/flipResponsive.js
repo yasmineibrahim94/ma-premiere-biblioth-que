@@ -125,7 +125,7 @@ class FlipResponsive extends React.Component {
               <img className="img-book-responsive" src={img3}/></div>
               <div className="page-text">
               <p className="text-book-responsive">Je la met<span className="text-color">s</span> dan<span className="text-color">s</span> mon tiroir,</p>
-              <p className="text-book-responsive">Elle me di<span className="text-color">t</span> : "il fai<span className="text-color"></span> tro<span className="text-color">p</span> noir"</p>
+              <p className="text-book-responsive">Elle me di<span className="text-color">t</span> : "il fai<span className="text-color">t</span> tro<span className="text-color">p</span> noir"</p>
           
               
               
