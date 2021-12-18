@@ -226,7 +226,7 @@ class SyllabiquePoule extends React.Component {
               <div className="page-text">
               <p className="text-book">En-fin le pain fu<span className="text-color">t</span> prêt et la pou-le le sor-ti<span className="text-color">t</span> du four. Quelle dé-li-ci-eu-se o-deur !</p>
                 <p className="text-book">Le co-chon, le ca-nar<span className="text-color">d</span> et le cha<span className="text-color">t</span> ar-ri-vè-re<span className="text-color">nt</span> pres-te-men<span className="text-color">t</span> : </p>
-              <p className="text-book">Pou-le, no-tre a-mi <span className="text-color">e</span>pou-le ! Pou-von<span className="text-color">s</span>-nou<span className="text-color">s</span> t'ai-der à man-ger ce bon pain ?</p>
+              <p className="text-book">Pou-le, no-tre a-mi<span className="text-color">e</span> pou-le ! Pou-von<span className="text-color">s</span>-nou<span className="text-color">s</span> t'ai-der à man-ger ce bon pain ?</p>
             </div>
 
 </div>

@@ -86,7 +86,7 @@ class Flip extends React.Component {
               <div className="page-img">
               <img className="img-book" src={img1}/></div>
               <div className="page-text">
-              <p className="text-book">Il étai<span className="text-color">t</span> une foi<span className="text-color">s</span> un frère et une s<span className="text-color">o</span>eur qui s'appelai<span className="text-color">ent</span> <span className="text-color">H</span>ansel et Gretel. Leur<span className="text-color">s</span> paren<span className="text-color">ts</span> étai<span className="text-color">ent</span> si pauvre<span className="text-color">s</span> qu'un jour il<span className="text-color">s</span> dure<span className="text-color">nt</span> abandonner les deu<span className="text-color">x</span> enfan<span className="text-color">ts</span> dan<span className="text-color">s</span> la forê.<span className="text-color">t</span></p>
+              <p className="text-book">Il étai<span className="text-color">t</span> une foi<span className="text-color">s</span> un frère et une s<span className="text-color">o</span>eur qui s'appelai<span className="text-color">ent</span> <span className="text-color">H</span>ansel et Gretel. Leur<span className="text-color">s</span> paren<span className="text-color">ts</span> étai<span className="text-color">ent</span> si pauvre<span className="text-color">s</span> qu'un jour il<span className="text-color">s</span> dure<span className="text-color">nt</span> abandonner les deu<span className="text-color">x</span> enfan<span className="text-color">ts</span> dan<span className="text-color">s</span> la forê<span className="text-color">t</span>.</p>
               <p className="text-book">Aprè<span className="text-color">s</span> avoir érré plusieur<span className="text-color">s</span> jour<span className="text-color">s</span>, il<span className="text-color">s</span> découvrire<span className="text-color">nt</span> une bien appétissante maison. Tou<span className="text-color">t</span> en bonbon<span className="text-color">s</span> et friandise<span className="text-color">s</span> !</p>
             </div>
 
@@ -124,7 +124,7 @@ class Flip extends React.Component {
               <div className="page-img">
               <img className="img-book" src={img3}/></div>
               <div className="page-text">
-              <p className="text-book">Mai<span className="text-color">s</span> la vieille femme étai<span className="text-color">s</span> une sorcière !</p>
+              <p className="text-book">Mai<span className="text-color">s</span> la vieille femme étai<span className="text-color">t</span> une sorcière !</p>
               <p className="text-book">Elle enferma <span className="text-color">H</span>ansel dan<span className="text-color">s</span> une cage et lui apporta chaque jour des friandise<span className="text-color">s</span>, gâteau<span className="text-color">x</span> et bonbon<span className="text-color">s</span> jusqu'à ce qu'elle le trouve assez gro<span className="text-color">s</span> pour le dévorer tandi<span className="text-color">s</span> que Gretel étai<span className="text-color">t</span> condamné<span className="text-color">e</span> à récurer la maison.</p>
             </div>
 

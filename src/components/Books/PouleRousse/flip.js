@@ -226,7 +226,7 @@ class Flip extends React.Component {
               <div className="page-text">
               <p className="text-book">Enfin le pain fu<span className="text-color">t</span> prêt et la poule le sorti<span className="text-color">t</span> du four. Quelle délicieuse odeur !</p>
                 <p className="text-book">Le cochon, le canar<span className="text-color">d</span> et le cha<span className="text-color">t</span> arrivère<span className="text-color">nt</span> prestemen<span className="text-color">t</span> : </p>
-              <p className="text-book">Poule, notre ami <span className="text-color">e</span>poule ! Pouvon<span className="text-color">s</span>-nou<span className="text-color">s</span> t'aider à manger ce bon pain ?</p>
+              <p className="text-book">Poule, notre ami<span className="text-color">e</span> poule ! Pouvon<span className="text-color">s</span>-nou<span className="text-color">s</span> t'aider à manger ce bon pain ?</p>
             </div>
 
 </div>

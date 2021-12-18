@@ -180,8 +180,8 @@ class SyllabiqueChevreaux extends React.Component {
               <div className="page-img">
               <img className="img-book" src={img6}/></div>
               <div className="page-text">
-              <p className="text-book">Il<span className="text-color">s</span> <span className="text-color">s</span>trou-vè-re<span className="text-color">nt</span> le lou<span className="text-color">p</span> en-dor-mi au pie<span className="text-color">d</span> d'un ar-bre.</p>
-                <p className="text-book">- Vi-te ! des ci-seau<span className="text-color">x</span>, du fil et une ai-guil-le ! di<span className="text-color">t</span> la mè-re à son pe-ti<span className="text-color">t</span></p>
+              <p className="text-book">Il<span className="text-color">s</span> trou-vè-re<span className="text-color">nt</span> le lou<span className="text-color">p</span> en-dor-mi au pie<span className="text-color">d</span> d'un ar-bre.</p>
+                <p className="text-book">- Vi-te ! des ci-seau<span className="text-color">x</span>, du fil et une ai-guil-le ! di<span className="text-color">t</span> la mè-re à son pe-ti<span className="text-color">t</span>.</p>
                 <p className="text-book">Cric-Cric ! Ma-man chè-vre dé-cou-pa le ven-tre du lou<span className="text-color">p</span> et en sor-ti six pe-ti<span className="text-color">ts</span> che-vreau<span className="text-color">x</span> ef-fra-yé<span className="text-color">s</span> mai<span className="text-color">s</span> vi-van<span className="text-color">ts</span>. Pui<span className="text-color">s</span> elle mi<span className="text-color">t</span> six gros-se<span className="text-color">s</span> pier-re<span className="text-color">s</span> dan<span className="text-color">s</span> le ven-tre du lou<span className="text-color">p</span> avan<span className="text-color">t</span> de le re-cou-dre.</p>
             </div>
 

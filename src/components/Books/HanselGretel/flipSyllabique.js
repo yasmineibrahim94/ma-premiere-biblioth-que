@@ -86,7 +86,7 @@ class SyllabiqueHansel extends React.Component {
               <div className="page-img">
               <img className="img-book" src={img1}/></div>
               <div className="page-text">
-              <p className="text-book">Il é-tai<span className="text-color">t</span> une foi<span className="text-color">s</span> un frè-re et une s<span className="text-color">o</span>eur qui s'ap-pe-lai<span className="text-color">ent</span> <span className="text-color">H</span>an-sel et Gre-tel. Leur<span className="text-color">s</span> pa-ren<span className="text-color">ts</span> é-tai<span className="text-color">ent</span> si pau-vre<span className="text-color">s</span> qu'un jour il<span className="text-color">s</span> du-re<span className="text-color">nt</span> a-ban-don-ner les deu<span className="text-color">x</span> en-fan<span className="text-color">ts</span> dan<span className="text-color">s</span> la fo-rê.<span className="text-color">t</span></p>
+              <p className="text-book">Il é-tai<span className="text-color">t</span> une foi<span className="text-color">s</span> un frè-re et une s<span className="text-color">o</span>eur qui s'ap-pe-lai<span className="text-color">ent</span> <span className="text-color">H</span>an-sel et Gre-tel. Leur<span className="text-color">s</span> pa-ren<span className="text-color">ts</span> é-tai<span className="text-color">ent</span> si pau-vre<span className="text-color">s</span> qu'un jour il<span className="text-color">s</span> du-re<span className="text-color">nt</span> a-ban-don-ner les deu<span className="text-color">x</span> en-fan<span className="text-color">ts</span> dan<span className="text-color">s</span> la fo-rê<span className="text-color">t</span>.</p>
               <p className="text-book">A-prè<span className="text-color">s</span> a-voir ér-ré plu-si-eur<span className="text-color">s</span> jour<span className="text-color">s</span>, il<span className="text-color">s</span> dé-cou-vri-re<span className="text-color">nt</span> une bien ap-pé-tis-san-te mai-son. Tou<span className="text-color">t</span> en bon-bon<span className="text-color">s</span> et fri-an-di-se<span className="text-color">s</span> !</p>
             </div>
 
@@ -124,7 +124,7 @@ class SyllabiqueHansel extends React.Component {
               <div className="page-img">
               <img className="img-book" src={img3}/></div>
               <div className="page-text">
-              <p className="text-book">Mai<span className="text-color">s</span> la vieil-le fem-me é-tai<span className="text-color">s</span> une sor-ci-ère !</p>
+              <p className="text-book">Mai<span className="text-color">s</span> la vieil-le fem-me é-tai<span className="text-color">t</span> une sor-ci-ère !</p>
               <p className="text-book">Elle en-fer-ma <span className="text-color">H</span>an-sel dan<span className="text-color">s</span> une ca-ge et lui ap-por-ta cha-que jour des fri-an-di-se<span className="text-color">s</span>, gâ-teau<span className="text-color">x</span> et bon-bon<span className="text-color">s</span> jus-qu'à ce qu'elle le trou-ve as-sez gro<span className="text-color">s</span> pour le dé-vo-rer tan-di<span className="text-color">s</span> que Gre-tel é-tai<span className="text-color">t</span> con-da<span className="text-color">m</span>-né<span className="text-color">e</span> à ré-cu-rer la mai-son.</p>
             </div>
 

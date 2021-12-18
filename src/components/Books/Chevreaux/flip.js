@@ -180,8 +180,8 @@ class Flip extends React.Component {
               <div className="page-img">
               <img className="img-book" src={img6}/></div>
               <div className="page-text">
-              <p className="text-book">Il<span className="text-color">s</span> <span className="text-color">s</span>trouvère<span className="text-color">nt</span> le lou<span className="text-color">p</span> endormi au pie<span className="text-color">d</span> d'un arbre.</p>
-                <p className="text-book">- Vite ! des ciseau<span className="text-color">x</span>, du fil et une aiguille ! di<span className="text-color">t</span> la mère à son peti<span className="text-color">t</span></p>
+              <p className="text-book">Il<span className="text-color">s</span> trouvère<span className="text-color">nt</span> le lou<span className="text-color">p</span> endormi au pie<span className="text-color">d</span> d'un arbre.</p>
+                <p className="text-book">- Vite ! des ciseau<span className="text-color">x</span>, du fil et une aiguille ! di<span className="text-color">t</span> la mère à son peti<span className="text-color">t</span>.</p>
                 <p className="text-book">Cric-Cric ! Maman chèvre découpa le ventre du lou<span className="text-color">p</span> et en sorti six peti<span className="text-color">ts</span> chevreau<span className="text-color">x</span> effrayé<span className="text-color">s</span> mai<span className="text-color">s</span> vivan<span className="text-color">ts</span>. Pui<span className="text-color">s</span> elle mi<span className="text-color">t</span> six grosse<span className="text-color">s</span> pierre<span className="text-color">s</span> dan<span className="text-color">s</span> le ventre du lou<span className="text-color">p</span> avan<span className="text-color">t</span> de le recoudre.</p>
             </div>
 
